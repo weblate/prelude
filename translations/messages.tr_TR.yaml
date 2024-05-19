@@ -1,0 +1,60 @@
+alreadyInOrFixedByX: Sil. Zaten {0} içinde yer alıyor veya başka bir şekilde düzeltildi.
+alreadyInX: Sil. Zaten {0} içinde yer alıyor.
+alsoUseX: '{0} kullanmanız şiddetle tavsiye edilir.'
+compatIssuesWithX: Bu eklenti {0} ile uyumluluk sorunları yaşıyor. Daha fazla bilgi için bu modun uyumluluk notlarını okuyun.
+compatNotes: Bu mod için [Uyumluluk Notları]({0}) okumanız tavsiye edilir.
+compatPatch: 'Bu mod için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz tavsiye edilir: {0}'
+compatPatchForX: '{0} için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz önerilir: {1}'
+corrupt: Bu dosya bozuk, kullanılmamalıdır.
+deactivateAfterCharacterCreation: Karakter oluşturulduktan sonra bu modu devre dışı bırakın ve/veya kaldırın.
+deleteOrDeactivateX: Sil veya devre dışı bırak. {0}
+deletePlugin: '**{0}** kullanırken, bu ESP dosyasını devre dışı bırakmanız veya silmeniz, ancak bu mod ile kurulan kaynakları (örneğin, meshler, dokular) saklamanız tavsiye edilir.'
+deprecated: Bu dosya artık kullanılmıyor ve kullanılmamalıdır.
+disableAfterGeneratingXwithY: Bu eklenti, **{1}** ile **{0}** oluşturulduktan sonra devre dışı bırakılabilir.
+essentialFiles: Başka bir mod, bu modun temel dosyalarından birini üzerine yazıyor gibi görünüyor. Lütfen bu modun {0} sürümünü veya uyumlu bir sürümü kullanıp kullanmadığınızı kontrol edin.
+flagESM: Bu eklenti bir ESM değil, ancak navmeshler içeriyor gibi görünüyor. Bu, NPC yol bulma sorunlarına neden olabilir. Bu sorunları önlemek için bu eklentiyi **ESM** olarak işaretlemeniz önerilir. Bu eklentideki betikler tarafından çağrılan tüm referansların **kalıcı** olarak işaretlendiğinden emin olmanız da gerekebilir.
+includesX: '{0}, bu mod ile birlikte gelmektedir.'
+incompatible: '{0}, {1} ile uyumsuzdur, ancak her ikisi de halihazırda var.'
+languageX: 'Dil: {0}'
+latestLOOTThread: '[Son LOOT Konusu]({0}).'
+mainQuestCompleted: Bu eklentiyi, oyunun ana görevi tamamlandıktan sonra kullanın.
+masterReassign: '**{0}** master, **{1}** olarak yeniden atanmalıdır.'
+missingRequirementXforPlugin: Bu eklentinin bazı gereksinimleri eksik gibi görünüyor. **{0}**'yi doğru bir şekilde yüklediğinizden emin olun.
+missingRequirementXforY: '**{1}** zaten yüklü, ancak bazı gereksinimleri eksik gibi görünüyor. **{0}**''yi doğru bir şekilde yüklediğinizden emin olun.'
+moddingPlugin: Bu eklenti bir modlama kaynağıdır ve oyun içinde kullanılmamalıdır.
+moveNVAC: NVAC **NVSE/Plugins** altına kurulmuş ancak {0} tarafından {1} için alınabilmesi için **{0}/Plugins** altına taşınmalıdır.
+moveXFromYToZ: '{0} dosyasını, {1} klasöründen {2} klasörüne taşı.'
+obsolete: Güncel değil. En son sürüme güncelleyin. {0}
+onlyUseSmashOrBash: '{0} ile birlikte kullanılabilir ancak ek iş gerektirebilir. Smashed Patch veya Bash Patch birbirinden bağımsız olarak kullanılmalıdır.'
+optional: Bu eklenti isteğe bağlıdır.
+patch3rdParty: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Üçüncü taraf bir yama burada mevcut: {1}'
+patchIncluded: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin yükleyicisi ile birlikte sunulmuştur.'
+patchOutdated: Bu yama güncel değil ve yamalanmış modun en son sürümüyle uyumlu olmayabilir.
+patchProvided: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin mod sayfasında sağlanmıştır.'
+patchUnavailable: Bu modun {0} ile tam uyumlu olması için bir yama gereklidir. Şu anda indirilebilecek bir yama yok.
+patchUpdateAvailable: 'Yama Güncellemesi mevcut: {0}'
+patcherScriptAvailable: '{0} yaması burada mevcut: {1}'
+quickClean: xEdit kullanarak eklentileri temizleme kılavuzunu [burada](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods) bulabilirsiniz.
+renameFile: Bu dosyayı {0} olarak yeniden adlandırın.
+renameXtoY: '{0} dosyasının adını {1} olarak değiştirmeniz gerekiyor, aksi takdirde bu mod çalışmayacaktır.'
+reqManualFix: '**Silinmiş navmeshler** içeren modları kullanmamanız şiddetle tavsiye edilir çünkü hatalara neden oldukları bilinmektedir. **Silinmiş navmeshler** manuel olarak düzeltilmelidir (mod yazarı tarafından yapılması gereken karmaşık bir işlem). **Silinmiş navmeshler** hakkında daha fazla bilgiyi [burada](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial) bulabilirsiniz.'
+requiresMCM_X: Bu modun tam işlevsel olabilmesi için bir **Mod Configuration Menu** gereklidir. **MCM**, {0} yükleyerek eklenir.
+requiresResources: '{0} kaynaklarına (ör. meshler, dokular; eklentiler hariç) ihtiyaç duyar.'
+requiresX: 'Gereksinimler: {0}'
+runAnimFramework: '**{0}** yüklü görünüyor. **{1}** her {2} yüklediğinizde veya kaldırdığınızda veyahut da {2} tabanlı bir mod yüklediğinizde çalıştırmayı unutmayın.'
+runxLODGen: WRLD/CELL kayıtlarını değiştiren eklentiler eklediğinizde, kaldırdığınızda veya güncellediğinizde bu modülü **xLODGen** ile güncellemeyi unutmayın.
+scriptExtenderMissing: '{0} eklentisi yüklenmiş ancak {0} bulunamadı! {0} indirme sayfasına bakın: {1}.'
+scriptExtenderRequiredScripts: Görünüşe göre **{0}** yüklemişsiniz, ancak gerekli betikler eksik görünüyor. Lütfen **{1}** kurulum arşiviyle birlikte gelen betikleri doğru bir şekilde kurduğunuzdan emin olun.
+supersede: '**{0}** kullanıyor gibi görünüyorsunuz, ancak bu artık geçersiz. Bunun yerine **{1}** kullanmanız tavsiye edilir.'
+useBashTweakInstead: Bu eklentinin yerine bir Bashed Patch tweak kullanılabilir. {0}
+useINITweakInstead: Bu eklentinin yerine bir INI tweak kullanılabilir. {0}
+useInstead: Bunun yerine {0} kullanın.
+useOnlyOneX: Sadece bir {0} kullanın.
+useVersion: '{0} sürümünü kullanın.'
+useVersionNon: '{0} olmayan sürümü kullanın.'
+versionOldX: Görünüşe göre {0} için en son sürümüne sahip değilsiniz. Bazı modlar çalışabilmek için {0} en son sürümünde eklenen işlevselliği gerektirebilir.
+versionPrecedence: '{1} içerisinden {0} silin. {2} sürümü öncelikli olmalıdır.'
+versionUpToDateX: '{0} güncel.'
+versionXIncY: Yüklü olan {0} sürümü, {1} sürümü ile uyumlu değil.
+versionXofYorGreaterRequired: '**{1}** için **{0}** veya daha yüksek bir sürüm gereklidir.'
+wildEdits: Bu eklenti [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) içerir ve diğer modlarla çakışmaması için ek manuel temizlik gerekebilir. {0}
