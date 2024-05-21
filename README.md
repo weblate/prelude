@@ -14,3 +14,12 @@ py -m venv .venv
 pip install -r requirements.txt
 py extract-strings.py
 ```
+
+It's also possible to overwrite the message text in `prelude.yaml` using the contents of the `translations` directory:
+
+```
+py -m venv .venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+py import-strings.py
+```
