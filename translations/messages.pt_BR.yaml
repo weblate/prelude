@@ -1,65 +1,60 @@
 messages:
+  alreadyInOrFixedByX: Apague. Já incluído ou consertado em {0}.
   alreadyInX: Apague. Já incluído em {0}
-  alreadyInOrFixedByX:
-  alsoUseX:
-  compatIssuesWithX:
-  compatNotes:
-  compatPatch:
-  compatPatchForX:
-  corrupt:
-  deactivateAfterCharacterCreation:
-  deleteOrDeactivateX:
-  deletePlugin:
-  deprecated:
-  disableAfterGeneratingXwithY:
-  essentialFiles:
-  flagESM:
-  includesX:
-  languageX:
-  mainQuestCompleted:
-  masterReassign:
-  missingRequirementXforY:
-  missingRequirementXforPlugin:
-  moddingPlugin:
-  moveXFromYToZ:
-  obsolete:
-  onlyUseSmashOrBash:
-  optional:
-  patch3rdParty:
-  patcherScriptAvailable:
-  patchIncluded:
-  patchOutdated:
-  patchProvided:
-  patchUnavailable:
-  patchUpdateAvailable:
-  renameFile:
-  renameXtoY:
-  requiresMCM_X:
-  requiresResources:
-  requiresX:
-  runAnimFramework:
-  runxLODGen:
-  useBashTweakInstead:
-  useINITweakInstead:
-  useInstead:
-  useOnlyOneX:
-  useVersion:
-  useVersionNon:
-  versionOldX:
-  versionPrecedence:
-  versionUpToDateX:
-  versionXIncY:
-  versionXofYorGreaterRequired:
-  wildEdits:
-
-cleaningData:
-  quickClean:
-  reqManualFix:
-
-globals:
-  incompatible:
-  latestLOOTThread:
-  moveNVAC:
-  scriptExtenderMissing:
-  scriptExtenderRequiredScripts:
-  supersede:
+  alsoUseX: É altamente recomendado que você também use {0}.
+  compatIssuesWithX: Este plugin tem problemas de compatibilidade com {0}. Para mais informações, leia as notas de compatibilidade deste mod.
+  compatNotes: É recomendada a leitura das [Notas de Compatibilidade]({0}) deste mod.
+  compatPatch: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
+  compatPatchForX: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
+  corrupt: Este arquivo está corrompido e não deveria ser utilizado.
+  deactivateAfterCharacterCreation: Desative e/ou desinstale este mod após a criação do personagem.
+  deleteOrDeactivateX: Apague ou desative. {0}
+  deletePlugin: Quando se usa **{0}**, é recomendado que você desative ou apague este arquivo ESP mas que mantenha os recursos (por ex. meshes, textures) instalados com esse mod.
+  deprecated: Este arquivo está obsoleto e não deve mais ser usado.
+  disableAfterGeneratingXwithY: Este plugin pode ser desativado após gerar **{0}** com **{1}**.
+  essentialFiles: Aparentemente outro mod está sobrescrevendo um dos arquivos essenciais deste mod. Por favor certifique-se que você está usando a versão do mod {0} ou uma versão compatível, se disponível.
+  includesX: '{0} está incluído neste mod.'
+  incompatible: '{0} é incompatível com {1}, mas ambos estão presentes.'
+  languageX: 'Língua: {0}'
+  latestLOOTThread: '[Thread mais recento do LOOT]({0}).'
+  mainQuestCompleted: Só use este plugin após finalizar a história principal do jogo.
+  masterReassign: O mestre **{0}** deve ser realocado para **{1}**.
+  missingRequirementXforPlugin: Alguns dos requerimentos deste plugin estão faltando. Por favor tenha certeza de que você instalou **{0}** corretamente.
+  missingRequirementXforY: Aparentemente você tem instalado **{1}**, mas alguns de seus requerimentos estão faltando. Por favor tenha certeza de que você instalou **{0}** corretamente.
+  moddingPlugin: Este plugin é um recurso para a criação de mods e não deve ser usado no jogo.
+  moveNVAC: O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **{0}/Plugins** para que o {0} o reconheça para o {1}.
+  moveXFromYToZ: Mover {0} de {1} para {2}.
+  obsolete: Obsoleto. Atualize para a última versão {0}.
+  onlyUseSmashOrBash: Pode ser utilizado com um {0} mas necessita de trabalho adicional. Um Smashed Patch ou um Bashed Patch devem ser utilizados independentemente um do outro.
+  optional: Este plugin é opcional.
+  patch3rdParty: 'Você aparenta estar usando **{0}**, mas não habilitou o patch de compatibilidade para este mod. Um patch feito por terceiros está disponível aqui: {1}'
+  patchIncluded: Você aparenta estar usando **{0}**, mas não habilitou o patch de compatibilidade para este mod. Um patch de compatibilidade está incluso com o instalador desse plugin.
+  patchOutdated: Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.
+  patchProvided: Você aparenta estar usando **{0}**, mas não habilitou o patch de compatibilidade para este mod. Um patch de compatibilidade é provido na página desse plugin.
+  patchUnavailable: Um patch é necessário para fazer esse mod ser totalmente compatível com {0}. No entanto, não há nenhum patch atualmente disponível para download.
+  patchUpdateAvailable: 'Patch de Atualização disponível: {0}'
+  patcherScriptAvailable: '{0} script patcher disponível aqui: {1}'
+  quickClean: Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
+  renameFile: Renomeie este arquivo para {0}.
+  renameXtoY: Você precisa renomear {0} para {1}, caso contrário esse mod não irá funcionar.
+  reqManualFix: É altamente recomendado que você não utilize mods que contenham **Navmeshes deletados**, pois eles são conhecidos por causar problemas. **Navmeshes deletados devem ser corrigos manualmente (Um processo complexo que deve ser feito pelo autor do mod). Mais informações em **Navmeshes deletadas** está disponível [aqui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
+  requiresMCM_X: Um **Menu de Configuração de Mod** (Mod Configuration Menu) é necessário para que este mod funcione totalmente. Um **MCM** pode ser adicionado ao instalar {0}.
+  requiresResources: 'Requer recursos (ex: meshes, texturas; não plugins) vindos de {0}.'
+  requiresX: 'Requer: {0}'
+  runAnimFramework: Você aparenta ter o **{0}** instalado. Lembre-se de rodar o **{1}** toda vez que você instalar or desinstalar o **{2}** ou um mod baseado no **{2}**.
+  runxLODGen: Se você adicionar, remover, ou atualizar plugins que alteram registros WRLD/CELL, lembre-se de atualizar esse módulo com **xLODGen**.
+  scriptExtenderMissing: 'Você tem um plugin do {0} instalado mas o {0} não foi encontrado! Veja a página de download do {0}: {1}.'
+  scriptExtenderRequiredScripts: Você aparenta ter instalado o **{0}**, mas os scripts necessários aparentam estar faltando. Por favor, tenha certeza de que você instalou o scripts que vem com o arquivo de instalação do **{1}**.
+  supersede: Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.
+  useBashTweakInstead: Uma tweak do Bashed Patch pode ser utilizada no lugar deste plugin. {0}
+  useINITweakInstead: Uma INI Tweak pode ser usada ao invés deste plugin. {0}
+  useInstead: Use {0} ao invés disso.
+  useOnlyOneX: Utilize apenas um {0}.
+  useVersion: Use a versão {0}.
+  useVersionNon: Use a versão não-{0}.
+  versionOldX: Você aparenta não ter a versão mais recente de {0}. Alguns mods podem requerer funcionalidades que foram adicionada na versão mais recente de {0} para funcionar.
+  versionPrecedence: Delete {0} de {1}. A versão de {2} deve ter precedência.
+  versionUpToDateX: Seu {0} está atualizado.
+  versionXIncY: A sua versão instalada de {0} não é compatível com a sua versão de {1}.
+  versionXofYorGreaterRequired: Requer versão **{0}** ou mais recente que **{1}**.
+  wildEdits: Este plugin contém [edições não-intencionais](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) e pode requerer limpeza manual adicional para que não interfira com outros mods. {0}

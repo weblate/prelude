@@ -1,65 +1,52 @@
 messages:
-  alreadyInX: Eliminar. Está incluido en {0}.
   alreadyInOrFixedByX: Eliminar. Está incluido o arreglado en {0}.
-  alsoUseX:
-  compatIssuesWithX:
-  compatNotes:
-  compatPatch:
-  compatPatchForX:
-  corrupt:
-  deactivateAfterCharacterCreation:
-  deleteOrDeactivateX:
-  deletePlugin:
-  deprecated:
-  disableAfterGeneratingXwithY:
-  essentialFiles:
-  flagESM:
-  includesX:
-  languageX:
-  mainQuestCompleted:
-  masterReassign:
-  missingRequirementXforY:
-  missingRequirementXforPlugin:
-  moddingPlugin:
-  moveXFromYToZ:
-  obsolete:
-  onlyUseSmashOrBash:
-  optional:
-  patch3rdParty:
-  patcherScriptAvailable:
-  patchIncluded:
-  patchOutdated:
-  patchProvided:
-  patchUnavailable:
-  patchUpdateAvailable:
-  renameFile:
-  renameXtoY:
-  requiresMCM_X:
-  requiresResources:
-  requiresX:
-  runAnimFramework:
-  runxLODGen:
-  useBashTweakInstead:
-  useINITweakInstead:
-  useInstead:
-  useOnlyOneX:
-  useVersion:
-  useVersionNon:
-  versionOldX:
-  versionPrecedence:
-  versionUpToDateX:
-  versionXIncY:
-  versionXofYorGreaterRequired:
-  wildEdits:
-
-cleaningData:
-  quickClean:
-  reqManualFix:
-
-globals:
-  incompatible:
-  latestLOOTThread:
-  moveNVAC:
-  scriptExtenderMissing:
-  scriptExtenderRequiredScripts:
-  supersede:
+  alreadyInX: Eliminar. Está incluido en {0}.
+  alsoUseX: Se recomienda que también use {0}.
+  compatIssuesWithX: Este plugin tiene problemas de compatibilidad con {0}. Para más información, lea las notas de compatibilidad de este mod.
+  compatNotes: Se recomienda que lea las [Notas de compatibilidad]({0}) de este mod.
+  corrupt: Este archivo está corrupto y no debería ser utilizado.
+  deleteOrDeactivateX: Eliminar o desactivar. {0}
+  deletePlugin: Si usa **{0}**, se recomienda que desactive o elimine este archivo ESP pero que mantenga los recursos (ej. mallas, texturas) que se instalaron con él.
+  includesX: '{0} viene incluido ya con este mod.'
+  incompatible: '{0} es incompatible con {1}, pero ambos se encuentran presentes.'
+  languageX: 'Lenguaje: {0}'
+  latestLOOTThread: '[Forum de LOOT]({0}).'
+  mainQuestCompleted: Use este plugin solo cuando la misión principal del juego haya sido completada.
+  masterReassign: El master **{0}** debe ser cambiado por **{1}**.
+  missingRequirementXforPlugin: Algunos de los requerimientos de este plugin parecen faltar. Por favor, asegúrese de que haya instalado correctamente **{0}**.
+  missingRequirementXforY: Parece que tiene instalado **{1}**, pero algunos de sus requerimientos no están presentes. Por favor, asegúrese de que haya instalado **{0}** correctamente.
+  moddingPlugin: Este plugin es un recurso para la creación de mods y no debería ser usado en el juego.
+  moveNVAC: NVAC se encuentra instalado bajo **NVSE/Plugins** pero debe ser trasladado a **{0}/Plugins** para que {0} pueda ser reconocido por {1}.
+  moveXFromYToZ: Mueva {0} de {1} hacia {2}.
+  obsolete: Obsoleto. Actualizar a la última versión. {0}
+  onlyUseSmashOrBash: Se puede utilizar con {0} pero requeriría un trabajo adicional. El Smashed Patch y el Bash Patch deben usarse independientemente uno el otro.
+  optional: Este plugin es opcional.
+  patch3rdParty: 'Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de un tercero se encuentra disponible aquí: {1}'
+  patchIncluded: Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está incluido en el instalador de este plugin.
+  patchOutdated: Este parche no ha sido actualizado y podría no ser compatible con la última versión del mod original.
+  patchProvided: Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está  disponible en la página del mod.
+  patchUnavailable: Se requiere un parche para hacer este mod completamente compatible con {0}. No existe por el momento ninguno disponible para ser descargado.
+  patchUpdateAvailable: Parche actualizado disponible aquí {0}.
+  patcherScriptAvailable: '{0} un script parcheador se encuentra disponible aquí: {1}'
+  quickClean: Una guía para limpiar plugins usando xEdit se encuentra disponible [aquí](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
+  renameFile: Renombre este archivo a {0}.
+  renameXtoY: Necesita renombrar {0} como {1} o de lo contrario este mod no funcionará.
+  reqManualFix: Es altamente recomendable que no se usen mods que contienen **navmeshes eliminadas** pues es común que causen cierres súbitos (crashes). Las **navmeshes eliminadas** deben ser corregidas manualmente (un proceso bien complejo que debe ser ejecutado por el autor del mod). Más información sobre las **navmeshes eliminadas** puede ser consltada [aquí](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
+  requiresMCM_X: Un **Menú de configuración de mod** se requiere para que este mod sea completamente funcional. Un **MCM** puede ser agregado si se instala {0}.
+  requiresResources: Requiere de recursos (ej. mallas, texturas; no plugins) de {0}.
+  requiresX: 'Requiere: {0}'
+  runAnimFramework: Parece que **{0}** está instalado. Recuerda ejecutar **{1}** cada vez que se instale o desinstale {2}, o un mod basado en {2}.
+  runxLODGen: Si se agrega, elimina, o se actualizan plugins que modifican registros WRLD/CELL, recuerde actualizar este módulo con **xLODGen**.
+  scriptExtenderMissing: '!Tiene un {0} plugin instalado pero {0} no se pudo encontrar! Véase {0} la página de descarga: {1}.'
+  scriptExtenderRequiredScripts: Parece que tiene instalado **{0}** pero los scripts necesarios parece que no se encuentran presentes. Por favor, asegúrese de que haya instalado correctamente los scripts que vienen con el archivo de instalación de **{1}**.
+  useBashTweakInstead: Un Bashed patch puede ser empleado en vez de este plugin. {0}
+  useINITweakInstead: Se puede modificar un archivo INI en vez de emplear este plugin. {0}
+  useInstead: Use {0} en su lugar.
+  useOnlyOneX: Utilice solo uno {0}.
+  useVersion: Use la versión diseñada para {0}.
+  useVersionNon: Use la versión que fue diseñada para funcionar sin {0}.
+  versionOldX: Parece que no tiene la última versión de {0}. Algunos mods pueden requerir funcionalidades añadidas en la última versión de {0} para funcionar.
+  versionUpToDateX: Tiene la última versión de {0}.
+  versionXIncY: La versión instalada de {0} no es compatible con la versión de {1} que está utilizando.
+  versionXofYorGreaterRequired: Requiere como mínimo la versión **{0}** de **{1}**.
+  wildEdits: Este plugin contiene [ediciones no intencionadas](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) y probablemente requiera de una limpieza manual adicional para que no interfiera con otros mods. {0}
