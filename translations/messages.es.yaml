@@ -49,3 +49,12 @@ versionUpToDateX: Tiene la última versión de {0}.
 versionXIncY: La versión instalada de {0} no es compatible con la versión de {1} que está utilizando.
 versionXofYorGreaterRequired: Requiere como mínimo la versión **{0}** de **{1}**.
 wildEdits: Este plugin contiene [ediciones no intencionadas](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) y probablemente requiera de una limpieza manual adicional para que no interfiera con otros mods. {0}
+compatPatch: 'Se recomienda comprobar la siguiente compilación de parches de compatibilidad para este mod: {0}'
+compatPatchForX: 'Se recomienda comprobar la siguiente compilación de parches de compatibilidad para {0}: {1}'
+deactivateAfterCharacterCreation: Desactiva y/o desinstala este mod después de la creación del personaje.
+deprecated: Este archivo está obsoleto y ya no debe utilizarse.
+disableAfterGeneratingXwithY: Este plugin puede desactivarse después de generar **{0}** con **{1}**.
+essentialFiles: Otro mod parece estar sobrescribiendo uno de los archivos esenciales de este mod. Por favor, asegúrate de que estás usando la versión {0} de este mod o una versión compatible si está disponible.
+flagESM: Este plugin no es un ESM, pero parece contener navmeshes. Esto puede provocar problemas con el pathfinding de los NPCs. Se recomienda marcar este plugin como **ESM** para evitar estos problemas. También puede ser necesario asegurarse de que todas las referencias invocadas por scripts en este plugin están marcadas como **persistentes**.
+supersede: Parece que estas utilizando **{0}**, pero ha sido sustituido. Se recomienda utilizar **{1}** en su lugar.
+versionPrecedence: Borra {0} de {1}. La versión de {2} debe tener prioridad.
