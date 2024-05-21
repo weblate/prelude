@@ -23,6 +23,7 @@ obsolete: Forældet. Opdatér til den nyeste version. {0}
 onlyUseSmashOrBash: Kan bruges sammen med {0} men det vil kræve ekstra arbejde. Smashed Patch og Bash Patch bør bruges uafhængigt af hinanden.
 optional: Dette plugin er valgfrit.
 patch3rdParty: 'Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En tredjepartspatch er tilgængelig her: {1}'
+patchIncluded: Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En kompatibilitetspatch er inkluderet i dette plugin's installationsprogram.
 patchOutdated: Denne patch er forældet og er muligvis ikke kompatibel med den nyeste version af det patched mod.
 patchProvided: Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. Der findes en kompatibilitetspatch på dette plugin's mod-side.
 patchUnavailable: Der kræves en patch for at gøre dette mod fuldt kompatibelt med {0}. Der er ingen tilgængelig til download i øjeblikket.
