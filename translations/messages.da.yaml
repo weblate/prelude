@@ -1,53 +1,52 @@
-messages:
-  alreadyInOrFixedByX: Slet. Allerede inkluderet eller på anden måde rettet i {0}.
-  alreadyInX: Slet. Allerede inkluderet i {0}.
-  alsoUseX: Det er stærk anbefalet, at du også bruger {0}.
-  compatIssuesWithX: Dette plugin har kompatibilitetsproblemer med {0}. For mere information, læs dette mod's kompatibilitetsnoter.
-  compatNotes: Det anbefales, at du læser dette mod's [Kompatibilitetsnoter]({0}).
-  compatPatch: 'Vi anbefaler, at du tjekker følgende kompilering af kompatibilitetspatches til dette mod: {0}.'
-  corrupt: Denne fil er beskadiget og bør ikke anvendes.
-  deleteOrDeactivateX: Slet eller deaktiver. {0}
-  deletePlugin: Når du bruger **{0}**, anbefales det, at du deaktiverer eller sletter denne ESP-fil, men beholder ressourcerne (f.eks. meshes, teksturer), der er installeret med dette mod.
-  essentialFiles: Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod's version af {0} eller en kompatibel version, hvis den er tilgængelig.
-  includesX: '{0} er inkluderet i dette mod.'
-  incompatible: '{0} er ikke inkompatibelt med {1}, men begge filer er til stede.'
-  languageX: 'Sprog: {0}'
-  latestLOOTThread: '[Seneste LOOT-tråd]({0}).'
-  mainQuestCompleted: Brug kun dette plugin, når hovedmissionen i spillet er fuldført.
-  masterReassign: '**{0}**-masteren skal overdrages til **{1}**.'
-  missingRequirementXforPlugin: Nogle af kravene til dette plugin mangles. Kontroller venligst, at du har installeret **{0}** korrekt.
-  missingRequirementXforY: Det ser ud til, at du har installeret **{1}**, men at nogle af kravene ikke er opfyldt. Sørg for, at du har installeret **{0}**.
-  moddingPlugin: Dette plugin er en moddingressource og bør ikke bruges i spillet.
-  moveNVAC: NVAC er installeret under **NVSE/Plugins**, men skal flyttes til **{0}/Plugins** for at {0} kan hente det til {1}.
-  moveXFromYToZ: Flyt {0} fra {1} til {2}.
-  obsolete: Forældet. Opdatér til den nyeste version. {0}
-  onlyUseSmashOrBash: Kan bruges sammen med {0} men det vil kræve ekstra arbejde. Smashed Patch og Bash Patch bør bruges uafhængigt af hinanden.
-  optional: Dette plugin er valgfrit.
-  patch3rdParty: 'Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En tredjepartspatch er tilgængelig her: {1}'
-  patchOutdated: Denne patch er forældet og er muligvis ikke kompatibel med den nyeste version af det patched mod.
-  patchProvided: Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. Der findes en kompatibilitetspatch på dette plugin's mod-side.
-  patchUnavailable: Der kræves en patch for at gøre dette mod fuldt kompatibelt med {0}. Der er ingen tilgængelig til download i øjeblikket.
-  patchUpdateAvailable: 'Opdateringspatch tilgængelig: {0}'
-  patcherScriptAvailable: '{0} patcher-scriptet er tilgængeligt her: {1}'
-  quickClean: En vejledning i rensning af plugins med xEdit kan findes [her](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
-  renameFile: Omdøb denne fil til {0}.
-  renameXtoY: Du skal omdøbe {0} til {1}, ellers vil dette mod ikke fungere.
-  reqManualFix: Det er stærkt anbefalet, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
-  requiresMCM_X: En **Mod-konfigurationsmenu** er nødvendig for at dette mod kan fungere korrekt. En **MCM** kan opnås ved at installere {0}.
-  requiresResources: Kræver ressourcer (f.eks. meshes, teksturer; ikke plugins) fra {0}.
-  requiresX: 'Kræver: {0}'
-  runAnimFramework: Det ser ud til, at du har **{0}** installeret. Husk at køre **{1}** hver gang du har installeret eller afinstalleret {2} eller en {2}-baseret mod.
-  runxLODGen: Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**.
-  scriptExtenderMissing: 'Du har installeret et {0} plugin, men {0} blev ikke fundet! Se {0} download-siden: {1}.'
-  scriptExtenderRequiredScripts: Det ser ud til, at du har installeret **{0}**, men de scripts, som det kræver, mangles tilsyneladende. Sørg for, at du har installeret de scripts, der er vedhæftet **{1}** installationsarkivet, korrekt.
-  useBashTweakInstead: Du kan bruge en Bashed Patch tweak i stedet for dette plugin. {0}
-  useINITweakInstead: Der kan bruges en INI-indstilling i stedet for dette plugin. {0}
-  useInstead: Brug {0} i stedet.
-  useOnlyOneX: Brug kun én {0}.
-  useVersion: Brug {0} version.
-  useVersionNon: Brug en ikke-{0} version.
-  versionOldX: Det ser ud til, at du ikke har den nyeste version af {0}. Nogle mods kan kræve funktionalitet, der er tilføjet i den nyeste version af {0}, for at fungere.
-  versionUpToDateX: Din {0} er opdateret.
-  versionXIncY: Din installerede version af {0} er ikke kompatibel med din version af {1}.
-  versionXofYorGreaterRequired: Kræver version **{0}** eller en højere version af **{1}**.
-  wildEdits: Dette plugin indeholder [ukontrollerede redigeringer](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) og kan behøve yderligere manuel oprydning for ikke at forstyrre andre mods. {0}
+alreadyInOrFixedByX: Slet. Allerede inkluderet eller på anden måde rettet i {0}.
+alreadyInX: Slet. Allerede inkluderet i {0}.
+alsoUseX: Det er stærk anbefalet, at du også bruger {0}.
+compatIssuesWithX: Dette plugin har kompatibilitetsproblemer med {0}. For mere information, læs dette mod's kompatibilitetsnoter.
+compatNotes: Det anbefales, at du læser dette mod's [Kompatibilitetsnoter]({0}).
+compatPatch: 'Vi anbefaler, at du tjekker følgende kompilering af kompatibilitetspatches til dette mod: {0}.'
+corrupt: Denne fil er beskadiget og bør ikke anvendes.
+deleteOrDeactivateX: Slet eller deaktiver. {0}
+deletePlugin: Når du bruger **{0}**, anbefales det, at du deaktiverer eller sletter denne ESP-fil, men beholder ressourcerne (f.eks. meshes, teksturer), der er installeret med dette mod.
+essentialFiles: Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod's version af {0} eller en kompatibel version, hvis den er tilgængelig.
+includesX: '{0} er inkluderet i dette mod.'
+incompatible: '{0} er ikke inkompatibelt med {1}, men begge filer er til stede.'
+languageX: 'Sprog: {0}'
+latestLOOTThread: '[Seneste LOOT-tråd]({0}).'
+mainQuestCompleted: Brug kun dette plugin, når hovedmissionen i spillet er fuldført.
+masterReassign: '**{0}**-masteren skal overdrages til **{1}**.'
+missingRequirementXforPlugin: Nogle af kravene til dette plugin mangles. Kontroller venligst, at du har installeret **{0}** korrekt.
+missingRequirementXforY: Det ser ud til, at du har installeret **{1}**, men at nogle af kravene ikke er opfyldt. Sørg for, at du har installeret **{0}**.
+moddingPlugin: Dette plugin er en moddingressource og bør ikke bruges i spillet.
+moveNVAC: NVAC er installeret under **NVSE/Plugins**, men skal flyttes til **{0}/Plugins** for at {0} kan hente det til {1}.
+moveXFromYToZ: Flyt {0} fra {1} til {2}.
+obsolete: Forældet. Opdatér til den nyeste version. {0}
+onlyUseSmashOrBash: Kan bruges sammen med {0} men det vil kræve ekstra arbejde. Smashed Patch og Bash Patch bør bruges uafhængigt af hinanden.
+optional: Dette plugin er valgfrit.
+patch3rdParty: 'Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En tredjepartspatch er tilgængelig her: {1}'
+patchOutdated: Denne patch er forældet og er muligvis ikke kompatibel med den nyeste version af det patched mod.
+patchProvided: Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. Der findes en kompatibilitetspatch på dette plugin's mod-side.
+patchUnavailable: Der kræves en patch for at gøre dette mod fuldt kompatibelt med {0}. Der er ingen tilgængelig til download i øjeblikket.
+patchUpdateAvailable: 'Opdateringspatch tilgængelig: {0}'
+patcherScriptAvailable: '{0} patcher-scriptet er tilgængeligt her: {1}'
+quickClean: En vejledning i rensning af plugins med xEdit kan findes [her](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
+renameFile: Omdøb denne fil til {0}.
+renameXtoY: Du skal omdøbe {0} til {1}, ellers vil dette mod ikke fungere.
+reqManualFix: Det er stærkt anbefalet, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
+requiresMCM_X: En **Mod-konfigurationsmenu** er nødvendig for at dette mod kan fungere korrekt. En **MCM** kan opnås ved at installere {0}.
+requiresResources: Kræver ressourcer (f.eks. meshes, teksturer; ikke plugins) fra {0}.
+requiresX: 'Kræver: {0}'
+runAnimFramework: Det ser ud til, at du har **{0}** installeret. Husk at køre **{1}** hver gang du har installeret eller afinstalleret {2} eller en {2}-baseret mod.
+runxLODGen: Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**.
+scriptExtenderMissing: 'Du har installeret et {0} plugin, men {0} blev ikke fundet! Se {0} download-siden: {1}.'
+scriptExtenderRequiredScripts: Det ser ud til, at du har installeret **{0}**, men de scripts, som det kræver, mangles tilsyneladende. Sørg for, at du har installeret de scripts, der er vedhæftet **{1}** installationsarkivet, korrekt.
+useBashTweakInstead: Du kan bruge en Bashed Patch tweak i stedet for dette plugin. {0}
+useINITweakInstead: Der kan bruges en INI-indstilling i stedet for dette plugin. {0}
+useInstead: Brug {0} i stedet.
+useOnlyOneX: Brug kun én {0}.
+useVersion: Brug {0} version.
+useVersionNon: Brug en ikke-{0} version.
+versionOldX: Det ser ud til, at du ikke har den nyeste version af {0}. Nogle mods kan kræve funktionalitet, der er tilføjet i den nyeste version af {0}, for at fungere.
+versionUpToDateX: Din {0} er opdateret.
+versionXIncY: Din installerede version af {0} er ikke kompatibel med din version af {1}.
+versionXofYorGreaterRequired: Kræver version **{0}** eller en højere version af **{1}**.
+wildEdits: Dette plugin indeholder [ukontrollerede redigeringer](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) og kan behøve yderligere manuel oprydning for ikke at forstyrre andre mods. {0}

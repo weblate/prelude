@@ -41,4 +41,4 @@ with open('prelude.yaml', encoding='utf8') as input:
 
 for lang in messages:
     with open(f'translations/messages.{lang}.yaml', mode='w', encoding='utf8') as output:
-        dump({ 'messages': messages[lang] }, output, allow_unicode=True, width=math.inf)
+        dump(messages[lang], output, allow_unicode=True, width=math.inf)

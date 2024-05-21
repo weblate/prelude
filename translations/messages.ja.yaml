@@ -1,59 +1,58 @@
-messages:
-  alreadyInOrFixedByX: 削除してください。{0} にすでに含まれているか修正されています。
-  alreadyInX: 削除してください。既に {0} に含まれています。
-  alsoUseX: '{0} の併用を強く推奨します。'
-  compatIssuesWithX: このプラグインには {0} との互換性の問題があります。詳細についてはこの Mod の互換性に関する注意事項をお読みください。
-  compatNotes: '[互換性に関する注意事項]({0})を読みましょう。'
-  compatPatch: '次の互換性パッチを確認することをお勧めします: {0}'
-  compatPatchForX: '{0} の互換性パッチを確認することをお勧めします: {1}'
-  corrupt: このファイルは壊れています。使用しないでください。
-  deactivateAfterCharacterCreation: キャラクター作成後、この Mod を非アクティブにするかアンインストールしてください。
-  deleteOrDeactivateX: '{0} を削除するか非アクティブにしてください。'
-  deletePlugin: '**{0}** を使用する場合、この Esp ファイルを無効化あるいは削除することをお勧めします。ただしこの Mod によってインストールされたリソース（メッシュ、テクスチャなど）はそのままにしておいてください。'
-  deprecated: 非推奨のファイルです。使用しないでください。
-  disableAfterGeneratingXwithY: このプラグインは **{1}** で **{0}** を生成すると無効化される場合があります。
-  essentialFiles: 必須ファイルが別の Mod によって上書きされているようです。この Mod の {0} バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。
-  includesX: '{0} はこの Mod に含まれています。'
-  incompatible: '{0}は{1}と相容れないが、どちらも存在する。'
-  languageX: '言語: {0}'
-  latestLOOTThread: '[LOOT の最新スレッドを開く]({0})（英語）。'
-  mainQuestCompleted: このプラグインはゲームのメインクエスト完了後に使用してください。
-  masterReassign: '**{0}** のマスターは **{1}** に割り当て直す必要があります。'
-  missingRequirementXforPlugin: このプラグインに必要なものの一部が不足しているようです。**{0}** が正しくインストールされていることを確認してください。
-  missingRequirementXforY: '**{1}** がインストールされましたが、必要なものの一部が不足しているようです。**{0}** が正しくインストールされていることを確認してください。'
-  moddingPlugin: このプラグインは Mod 製作用のリソースです。ゲーム内で使用するものではありません。
-  moveNVAC: NVAC が **NVSE/Plugins** 以下にインストールされています。{1} の {0} で利用するには **{0}/Plugins** に移さなくてはなりません。
-  moveXFromYToZ: '{0} を {1} から {2} に移動します。'
-  obsolete: 旧式のプラグインです。最新版に更新してください。{0}
-  onlyUseSmashOrBash: '{0} と同時に使用できますが、追加作業が必要となります。Smashed Patch か Bash Patch はそれぞれ単独で使用してください。'
-  optional: このプラグインは任意で使うオプションファイルです。
-  patch3rdParty: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。サードパーティのパッチはこちらで入手できます: {1}'
-  patchIncluded: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインのインストーラーに含まれています。'
-  patchOutdated: 旧式のパッチです。パッチが適用された Mod の最新版とは両立できない可能性があります。
-  patchProvided: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインの Mod ページにあります。'
-  patchUnavailable: この Mod を {0} に完全対応させるにはパッチが必要です。現在ダウンロードできるパッチはありません。
-  patchUpdateAvailable: 'パッチを更新可能: {0}'
-  patcherScriptAvailable: '{0} のパッチスクリプトをこちらから入手できます: {1}'
-  quickClean: xEdit を使ったプラグインのクリーニング方法を[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)のガイドから確認できます。
-  renameFile: ファイル名を {0} に変更してください。
-  renameXtoY: '{0} を {1} にリネームしないと機能しません。'
-  reqManualFix: '**削除された navmesh**（deleted navmeshes）が含まれている Mod は使用しないことを強く推奨します。こうした Mod はクラッシュの原因となるからです。**削除された navmesh** は手動で修正しなくてはなりません（本来なら Mod の製作者が行わなくてはならない複雑な手順です）。**削除された navmesh** については[こちら](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)から詳しい情報を確認できます。'
-  requiresMCM_X: この Mod を完全に機能させるには、**MCM** (Mod Configuration Menu) が必要です。**MCM** を追加するには {0} を導入してください。
-  requiresResources: '{0} のリソース（プラグインではなくメッシュやテクスチャなど）が必要です。'
-  requiresX: '要: {0}'
-  runAnimFramework: '**{0}** がインストールされているようです。{2} 本体、また {2} に準拠する Mod をインストール/アンインストールする際は、必ず **{1}** を実行し直すようにしてください。'
-  runxLODGen: WRLD/CELL レコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。
-  scriptExtenderMissing: '{0} プラグインがインストールされていますが、{0} が見つかりません！{0} のダウンロードページはこちら: {1}'
-  scriptExtenderRequiredScripts: '**{0}** がインストールされているようですが、必要なスクリプトが見つかりません。**{1}** に付属するスクリプトが正しくインストールされているかを確認してください。'
-  useBashTweakInstead: このプラグインは、Bashed Patch の調整機能（Tweak）で代用できます。{0}
-  useINITweakInstead: このプラグインは、INI の調整機能（INI Tweak）で代用できます。{0}
-  useInstead: 代わりに {0} を使用してください。
-  useOnlyOneX: '{0} は一つだけ使用してください。'
-  useVersion: '{0} バージョンを使用してください。'
-  useVersionNon: '{0} バージョン以外を使用してください。'
-  versionOldX: '{0} が最新版ではないようです。一部の Mod を動作させるには最新版の {0} で追加された機能が必要となる場合があります。'
-  versionPrecedence: '{1} から {0} を削除してください。{2} のものを優先させる必要があります。'
-  versionUpToDateX: '{0} は最新版です。'
-  versionXIncY: インストールされている {0} は使用中のバージョンの {1} との互換性がありません。
-  versionXofYorGreaterRequired: バージョン **{0}** 以上の **{1}** が必要です。
-  wildEdits: このプラグインには [Wild Edit](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)（不用意な編集）が含まれています。他の Mod に干渉しないようにするには、追加で手動クリーニングを行う必要があるでしょう。{0}
+alreadyInOrFixedByX: 削除してください。{0} にすでに含まれているか修正されています。
+alreadyInX: 削除してください。既に {0} に含まれています。
+alsoUseX: '{0} の併用を強く推奨します。'
+compatIssuesWithX: このプラグインには {0} との互換性の問題があります。詳細についてはこの Mod の互換性に関する注意事項をお読みください。
+compatNotes: '[互換性に関する注意事項]({0})を読みましょう。'
+compatPatch: '次の互換性パッチを確認することをお勧めします: {0}'
+compatPatchForX: '{0} の互換性パッチを確認することをお勧めします: {1}'
+corrupt: このファイルは壊れています。使用しないでください。
+deactivateAfterCharacterCreation: キャラクター作成後、この Mod を非アクティブにするかアンインストールしてください。
+deleteOrDeactivateX: '{0} を削除するか非アクティブにしてください。'
+deletePlugin: '**{0}** を使用する場合、この Esp ファイルを無効化あるいは削除することをお勧めします。ただしこの Mod によってインストールされたリソース（メッシュ、テクスチャなど）はそのままにしておいてください。'
+deprecated: 非推奨のファイルです。使用しないでください。
+disableAfterGeneratingXwithY: このプラグインは **{1}** で **{0}** を生成すると無効化される場合があります。
+essentialFiles: 必須ファイルが別の Mod によって上書きされているようです。この Mod の {0} バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。
+includesX: '{0} はこの Mod に含まれています。'
+incompatible: '{0}は{1}と相容れないが、どちらも存在する。'
+languageX: '言語: {0}'
+latestLOOTThread: '[LOOT の最新スレッドを開く]({0})（英語）。'
+mainQuestCompleted: このプラグインはゲームのメインクエスト完了後に使用してください。
+masterReassign: '**{0}** のマスターは **{1}** に割り当て直す必要があります。'
+missingRequirementXforPlugin: このプラグインに必要なものの一部が不足しているようです。**{0}** が正しくインストールされていることを確認してください。
+missingRequirementXforY: '**{1}** がインストールされましたが、必要なものの一部が不足しているようです。**{0}** が正しくインストールされていることを確認してください。'
+moddingPlugin: このプラグインは Mod 製作用のリソースです。ゲーム内で使用するものではありません。
+moveNVAC: NVAC が **NVSE/Plugins** 以下にインストールされています。{1} の {0} で利用するには **{0}/Plugins** に移さなくてはなりません。
+moveXFromYToZ: '{0} を {1} から {2} に移動します。'
+obsolete: 旧式のプラグインです。最新版に更新してください。{0}
+onlyUseSmashOrBash: '{0} と同時に使用できますが、追加作業が必要となります。Smashed Patch か Bash Patch はそれぞれ単独で使用してください。'
+optional: このプラグインは任意で使うオプションファイルです。
+patch3rdParty: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。サードパーティのパッチはこちらで入手できます: {1}'
+patchIncluded: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインのインストーラーに含まれています。'
+patchOutdated: 旧式のパッチです。パッチが適用された Mod の最新版とは両立できない可能性があります。
+patchProvided: '**{0}** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインの Mod ページにあります。'
+patchUnavailable: この Mod を {0} に完全対応させるにはパッチが必要です。現在ダウンロードできるパッチはありません。
+patchUpdateAvailable: 'パッチを更新可能: {0}'
+patcherScriptAvailable: '{0} のパッチスクリプトをこちらから入手できます: {1}'
+quickClean: xEdit を使ったプラグインのクリーニング方法を[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)のガイドから確認できます。
+renameFile: ファイル名を {0} に変更してください。
+renameXtoY: '{0} を {1} にリネームしないと機能しません。'
+reqManualFix: '**削除された navmesh**（deleted navmeshes）が含まれている Mod は使用しないことを強く推奨します。こうした Mod はクラッシュの原因となるからです。**削除された navmesh** は手動で修正しなくてはなりません（本来なら Mod の製作者が行わなくてはならない複雑な手順です）。**削除された navmesh** については[こちら](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)から詳しい情報を確認できます。'
+requiresMCM_X: この Mod を完全に機能させるには、**MCM** (Mod Configuration Menu) が必要です。**MCM** を追加するには {0} を導入してください。
+requiresResources: '{0} のリソース（プラグインではなくメッシュやテクスチャなど）が必要です。'
+requiresX: '要: {0}'
+runAnimFramework: '**{0}** がインストールされているようです。{2} 本体、また {2} に準拠する Mod をインストール/アンインストールする際は、必ず **{1}** を実行し直すようにしてください。'
+runxLODGen: WRLD/CELL レコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。
+scriptExtenderMissing: '{0} プラグインがインストールされていますが、{0} が見つかりません！{0} のダウンロードページはこちら: {1}'
+scriptExtenderRequiredScripts: '**{0}** がインストールされているようですが、必要なスクリプトが見つかりません。**{1}** に付属するスクリプトが正しくインストールされているかを確認してください。'
+useBashTweakInstead: このプラグインは、Bashed Patch の調整機能（Tweak）で代用できます。{0}
+useINITweakInstead: このプラグインは、INI の調整機能（INI Tweak）で代用できます。{0}
+useInstead: 代わりに {0} を使用してください。
+useOnlyOneX: '{0} は一つだけ使用してください。'
+useVersion: '{0} バージョンを使用してください。'
+useVersionNon: '{0} バージョン以外を使用してください。'
+versionOldX: '{0} が最新版ではないようです。一部の Mod を動作させるには最新版の {0} で追加された機能が必要となる場合があります。'
+versionPrecedence: '{1} から {0} を削除してください。{2} のものを優先させる必要があります。'
+versionUpToDateX: '{0} は最新版です。'
+versionXIncY: インストールされている {0} は使用中のバージョンの {1} との互換性がありません。
+versionXofYorGreaterRequired: バージョン **{0}** 以上の **{1}** が必要です。
+wildEdits: このプラグインには [Wild Edit](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)（不用意な編集）が含まれています。他の Mod に干渉しないようにするには、追加で手動クリーニングを行う必要があるでしょう。{0}
