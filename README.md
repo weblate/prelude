@@ -4,22 +4,28 @@ This repository holds the masterlist prelude, a metadata file that is used to su
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to the prelude.
 
-### Updating Weblate translations
+### Synchronising Weblate translations
 
-The `translations` directory holds files that are read and written by Weblate. It's possible to regenerate their content from the `prelude.yaml` by running the following, assuming Python 3 is installed on Windows:
+The `translations` directory holds files that are read and written by Weblate. There are a couple of scripts that can be used to keep them in sync with `prelude.yaml`.
+
+To use the scripts, first install their dependencies in a virtual environment. On Windows, make sure Python 3 is installed, then run:
 
 ```
 py -m venv .venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
-py extract-strings.py
+```
+
+To regenerate the files in the `translations` directory from the `prelude.yaml`, run:
+
+```
+py scripts/export-translations.py
 ```
 
 It's also possible to overwrite the message text in `prelude.yaml` using the contents of the `translations` directory:
 
 ```
-py -m venv .venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-py import-strings.py
+py scripts/import-translations.py
 ```
+
+Both of these scripts make assumptions about the formatting and layout of entries in `prelude.yaml`, so it's worth double-checking their changes.

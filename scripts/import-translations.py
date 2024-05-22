@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Read localised message content strings from translations/messages.<lang>.yaml
+# files and use them to replace the corresponding strings in prelude.yaml.
+
 import math
 import re
 import os

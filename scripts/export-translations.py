@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Read localised message content strings from prelude.yaml and generate
+# translations/messages.<lang>.yaml files from them.
+
 import math
 import re
 
