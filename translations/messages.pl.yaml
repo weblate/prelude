@@ -1,0 +1,54 @@
+alreadyInOrFixedByX: Usuń. Już zawarte lub naprawione w {0}.
+alreadyInX: Usuń. Już zawarte w {0}
+alsoUseX: Jest wysoce wskazane abyś używał także {0}.
+compatIssuesWithX: Ta wtyczka ma problemy ze kompatybilnością z {0}. Aby uzyskać więcej informacji, przeczytaj uwagi dotyczące zgodności tego moda.
+compatNotes: Jest rekomendowane abyś przeczytał [Notki Kompatybilności]({0}) tego moda.
+compatPatch: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: {0}'
+corrupt: Ten plik jest zepsuty i nie powinien być używany.
+deleteOrDeactivateX: Usuń lub dezaktywuj. {0}
+deletePlugin: Używając **{0}**, jest rekomendowane abyś dezaktywował lub usunął ten plik ESP, ale pozostawił zasoby (siatki, tekstury) zainstalowane z tym modem.
+deprecated: Ten plik jest przestarzały i nie powinien być już używany.
+essentialFiles: Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji {0} tego moda lub wersji kompatybilnej, jeśli jest dostępna.
+includesX: '{0} jest już zawarte z tym modem.'
+incompatible: '{0} jest niekompatybilna z {1}, a jest aktywna.'
+languageX: 'Język: {0}'
+latestLOOTThread: '[Ostatni wątek LOOT]({0}).'
+mainQuestCompleted: Używaj tej wtyczki dopiero po ukończeniu głównego zadania gry.
+masterReassign: Wzorzec **{0}** musi zostać ponownie przypisany do wartości **{1}**.
+missingRequirementXforPlugin: Część wymagań dla tej wtyczki wydaje się być brakująca. Upewnij się że poprawnie zainstalowałeś **{0}**.
+missingRequirementXforY: Wygląda na to że zainstalowałeś **{1}**, ale wydaje się, że brakuje niektórych z jego wymagań. Upewnij się że poprawnie zainstalowałeś **{0}**.
+moddingPlugin: Ta wtyczka jest zasobem modowania i nie powinna być używana w grze.
+moveNVAC: NVAC jest instalowany w **NVSE/Plugins**, ale musi zostać przeniesiony do **{0}/Plugins** dla {0}, aby pobrać go za {1}.
+moveXFromYToZ: Przesuń {0} do {1} do {2}.
+obsolete: Przestarzały. Uaktualnij do ostatniej wersji. {0}
+onlyUseSmashOrBash: Może być używane wraz z {0} ale wymagałoby dodatkowej pracy. Smashed Patch lub Bashed Patch powinien być używany niezależnie jeden od drugiego.
+optional: Ta wtyczka jest opcjonalna.
+patch3rdParty: 'Wygląda na to że używasz **{0}**, ale nie masz aktywnej łatki zgodności dla tego moda. Łatka trzeciej strony jest dostępna tutaj: {1}'
+patchIncluded: Wygląda na to że używasz **{0}**, ale nie masz aktywnej łatki zgodności dla tego moda. Łatka zgodności jest dostarczona wraz z instalatorem tej wtyczki.
+patchOutdated: Ten patch jest nieaktualny i może nie być kompatybilny z najnowszą wersją poprawionego moda.
+patchProvided: Wygląda na to że używasz **{0}**, ale nie masz aktywnej łatki zgodności dla tego moda. Łatka zgodności jest dostarczona na stronie internetowej tej wtyczki.
+patchUnavailable: Wymagana jest patch, aby ten mod był w pełni kompatybilny z {0}. Żaden nie jest obecnie dostępny do pobrania.
+patchUpdateAvailable: 'Dostępna Łatka Aktualizująca: {0}'
+patcherScriptAvailable: '{0} skrypt patchera dostępny tutaj: {1}'
+quickClean: Przewodnik po czyszczeniu wtyczek za pomocą xEdit można znaleźć [tutaj](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
+renameFile: Zmień nazwę tego pliku do {0}.
+renameXtoY: Musisz zmienić nazwę {0} na {1} lub ten mod nie będzie działać.
+reqManualFix: Jest silnie zalecane aby nie używać modów zawierających **Usunięte navmeshe** jako że są znane jako powód awarii. **Usunięte navmeshe** muszą zostać poprawione ręcznie(skomplikowany proces który powinien być wykonany przez autora modu). Więcej informacji o **Usuniętych navmeshach** można znaleźć [tutaj](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
+requiresMCM_X: '**Menu Konfiguracji Modów** jest wymagane aby ten mod funkcjonował w pełni poprawnie. **MCM** może zostać dodane poprzez instalację {0}.'
+requiresResources: Wymaga zasobów (np. siatek, tekstur; nie wtyczek) od {0}.
+requiresX: 'Wymaga: {0}'
+runAnimFramework: Wygląda na to że masz zainstalowany **{0}**. Pamiętaj aby uruchomić **{1}** za każdym razem kiedy zainstalowałeś lub odinstalowałeś {2}, lub mod bazujący na {2}.
+runxLODGen: Jeśli dodasz, usuniesz lub zaktualizujesz wtyczki, które zmieniają rekordy WRLD/CELL, pamiętaj, aby zaktualizować ten moduł za pomocą **xLODGen**.
+scriptExtenderMissing: 'Zainstalowałeś an {0} plugin ale nie odnaleziono {0}! Odwiedź stronę pobierania {0}: {1}.'
+scriptExtenderRequiredScripts: Wygląda na to że zainstalowałeś **{0}**, ale jego wymagane skrypty są brakujące. Upewnij się że poprawnie zainstalowałeś skrypty w pakiecie z archiwum instalacyjnym **{1}**.
+useBashTweakInstead: Zamiast tej wtyczki można użyć poprawki Bashed Patch. {0}
+useINITweakInstead: Zamiast tej wtyczki można użyć ulepszenia INI. {0}
+useInstead: Użyj {0} zamiast tego.
+useOnlyOneX: Używa tylko jednego {0}.
+useVersion: Użyj wersji {0}.
+useVersionNon: Użyj wersji innej niż {0}.
+versionOldX: Wygląda na to że nie masz ostatniej aktualnej wersji {0}. Część modów może wymagać funkcjonalności dodanej w ostatniej wersji {0} aby działać poprawnie.
+versionUpToDateX: Twój {0} jest aktualny.
+versionXIncY: Twoja zainstalowana wersja {0} nie jest kompatybilna z twoją wersją {1}.
+versionXofYorGreaterRequired: Wymaga wersji **{0}** lub lepszej od **{1}**.
+wildEdits: Ta wtyczka zawiera [dzikie edycje](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) i może wymagać dodatkowego ręcznego czyszczenia aby nie kolidować z innymi modami. {0}

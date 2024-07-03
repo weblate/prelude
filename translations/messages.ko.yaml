@@ -1,0 +1,50 @@
+alreadyInOrFixedByX: 삭제하십시오. 이미 {0}에 포함되었거나 수정되었습니다.
+alreadyInX: 삭제하십시오. 이미 {0}에 포함되어 있습니다.
+alsoUseX: '{0}도 함께 사용하는 것을 매우 권장합니다.'
+compatIssuesWithX: 이 플러그인은 {0}와의 호환성 문제가 있습니다. 자세한 내용은 이 모드의 호환성 정보를 확인해주세요.
+compatNotes: 이 모드의 [호환성 정보]({0})를 읽어 보는 걸 권장합니다.
+corrupt: 이 파일은 손상되었습니다. 사용하지 마십시오.
+deleteOrDeactivateX: '{0}을 제거하거나 비활성화하십시오.'
+deletePlugin: '**{0}**를 사용할 때 이 ESP 파일을 비활성화하거나 삭제하되, 이 모드와 함께 설치된 리소스(예: 메쉬, 텍스쳐)는 유지하는 것을 권장합니다.'
+includesX: '{0} 모드가 포함되어 있습니다.'
+incompatible: '{0}은 {1}과 호환되지 않지만 둘 다 존재합니다.'
+languageX: '언어: {0}'
+latestLOOTThread: '[최신 LOOT 스레드]({0}).'
+mainQuestCompleted: 이 플러그인은 게임의 메인 퀘스트가 완료된 후에만 사용하십시오.
+masterReassign: '**{0}** 마스터는 **{1}**에 다시 할당되어야합니다.'
+missingRequirementXforPlugin: 이 플러그인의 일부 요구사항이 빠져 있습니다. **{0}** 모드를 제대로 설치하십시오.
+missingRequirementXforY: '**{1}** 모드를 실행하기 위한 필요 모드가 빠져 있습니다. **{0}** 모드를 제대로 설치하십시오.'
+moddingPlugin: 이 플러그인은 모딩 리소스이며 게임 내에서 사용해서는 안 됩니다.
+moveNVAC: NVAC는 **NVSE/플러그인** 아래에 설치되지만 {1}에 대해 선택하려면 {0}에 대해 **{0}/Plugins**로 이동해야합니다.
+moveXFromYToZ: '{0}를 {1}에서 {2}로 이동합니다.'
+obsolete: 폐기된 플러그인입니다. 최신 버전으로 업데이트하십시오. {0}
+onlyUseSmashOrBash: '{0}와 함께 사용할 수 있지만 추가적인 작업이 필요합니다. Smashed Patch나 Bash Patch는 서로 독립적으로 사용해야합니다.'
+optional: 이 플러그인은 선택 사항입니다.
+patch3rdParty: '**{0}** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 제3자 제공 호환성 패치는 여기에서 다운로드 가능합니다: {1}'
+patchIncluded: '**{0}** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 호환성 패치는 이 플러그인의 인스톨러에 포함되어 있습니다.'
+patchProvided: '**{0}** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 호환성 패치는 이 플러그인의 모드 페이지에서 제공 중입니다.'
+patchUnavailable: 이 모드가 {0}와 완전히 호환되도록하려면 패치가 필요합니다. 현재 다운로드 할 수있는 항목이 없습니다.
+patchUpdateAvailable: '패치 업데이트 가능: {0}'
+patcherScriptAvailable: '{0}의 패쳐 스크립트는 {1}에서 사용이 가능합니다.'
+quickClean: xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.
+renameFile: 이 파일의 이름을 {0}로 바꿉니다.
+renameXtoY: '{0}의 이름을 {1}로 변경하지 않으면 이 모드가 작동하지 않습니다.'
+reqManualFix: '**삭제된 Navmesh**가 포함된 모드는 크래시를 유발하는 것으로 알려져 있으므로 사용하지 않는 것이 좋습니다. **삭제된 Navmesh**는 수동으로 수정해야합니다(모드 작성자가 수행해야하는 복잡한 프로세스). **삭제된 Navmesh**에 대한 자세한 정보는 [여기](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)에서 제공됩니다.'
+requiresMCM_X: 모드가 정상 작동하기 위해서는 **모드 설정 메뉴**가필요합니다. {0}를 설치하면 **MCM** 메뉴를 추가할 수 있습니다.
+requiresResources: '{0}의 리소스(플러그인이 아닌, 메쉬 및 질감 등)가 필요합니다.'
+requiresX: '필요모드: {0}'
+runAnimFramework: '**{0}**가 설치되어 있습니다. {2} 또는 {2} 기반 모드를 설치하거나 제거할 때마다 **{1}**를 실행하는 것을 잊지 마십시오.'
+runxLODGen: WRLD/CELL 레코드를 변경하는 플러그인을 추가, 제거 또는 업데이트하는 경우 **xLODGen**으로 이 모듈을 업데이트해야 합니다.
+scriptExtenderMissing: '{0} 플러그인이 설치되었지만 {0}를 찾을 수 없습니다! {0} 다운로드 페이지를 참조하십시오: {1}.'
+scriptExtenderRequiredScripts: '**{0}**를 설치한것으로 보이지만 필수 스크립트가 누락된 것같습니다. **{1}** 설치 아카이브와 함께 번들로 제공되는 스크립트를 올바르게 설치했는지 확인하십시오.'
+useBashTweakInstead: 이 플러그인 대신 Bashed Patch의 트윅을 사용할 수 있습니다. {0}
+useINITweakInstead: 이 플러그인 대신 INI 조정을 사용할 수 있습니다. {0}
+useInstead: 대신 {0}를 사용하십시오.
+useOnlyOneX: '{0}을 한 개만 사용하십시오.'
+useVersion: '{0} 버전을 사용하십시오.'
+useVersionNon: '{0}가 아닌 버전을 사용하십시오.'
+versionOldX: '{0}의 최신 버전이없는 것 같습니다. 일부 모드가 동작하려면 {0}의 최신 버전에 추가 된 기능이 필요할 수 있습니다.'
+versionUpToDateX: '{0}가 최신 버전입니다.'
+versionXIncY: 현재 설치된 {0}의 버전은 {1}의 버전과 호환되지 않습니다.
+versionXofYorGreaterRequired: '**{0}** 혹은 **{1}** 이상의 버전이 필요합니다.'
+wildEdits: 이 플러그인에는 [잘못된 편집](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)이 포함되어 있으며 다른 모드와 간섭되지 않도록 추가적인 수동 청소가 필요할 수 있습니다. {0}
