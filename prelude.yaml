@@ -212,6 +212,8 @@ common:
         text: 'Vi anbefaler, at du tjekker følgende kompilering af kompatibilitetspatches til dette mod: {0}.'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für diese Mod überprüfen: {0}'
+      - lang: es
+        text: 'Se recomienda comprobar la siguiente compilación de parches de compatibilidad para este mod: {0}'
       - lang: fi
         text: 'On suotavaa katsoa myös tämä kokoelma lisäosan yhteensopivuuskorjauksia: {0}'
       - lang: fr
@@ -240,6 +242,8 @@ common:
         text: 'Препоръчва се да проверите следните кръпки за съвместимост за {0}: {1}'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für {0} überprüfen: {1}'
+      - lang: es
+        text: 'Se recomienda comprobar la siguiente compilación de parches de compatibilidad para {0}: {1}'
       - lang: fi
         text: 'On suotavaa katsoa myös tämä kokoelma lisäosan {0} yhteensopivuuskorjauksia: {1}'
       - lang: fr
@@ -306,6 +310,8 @@ common:
         text: 'Деактивирайте или премахнете тази модификация след създаването на героя.'
       - lang: de
         text: 'Deaktivieren und/oder deinstallieren Sie diese Mod nach der Charaktererstellung.'
+      - lang: es
+        text: 'Desactiva y/o desinstala este mod después de la creación del personaje.'
       - lang: fi
         text: 'Poista tämän lisäosan käyttö tai asennus hahmon luotuasi.'
       - lang: fr
@@ -413,6 +419,8 @@ common:
         text: 'Тази приставка е остаряла и не трябва да се използва.'
       - lang: de
         text: 'Diese Datei ist veraltet und sollte nicht mehr verwendet werden.'
+      - lang: es
+        text: 'Este archivo está obsoleto y ya no debe utilizarse.'
       - lang: fi
         text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
       - lang: fr
@@ -441,6 +449,8 @@ common:
         text: 'Тази приставка може да е деактивирана след създаването на **{0}** с **"{1}"**.'
       - lang: de
         text: 'Dieses Plugin kann nach der Erzeugung von **{0}** mit **{1}** deaktiviert werden.'
+      - lang: es
+        text: 'Este plugin puede desactivarse después de generar **{0}** con **{1}**.'
       - lang: fi
         text: 'Tämä lisäosa voidaan poistaa käytöstä, kun **{0}** on luotu käyttäen **{1}**.'
       - lang: fr
@@ -469,6 +479,8 @@ common:
         text: 'Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod''s version af {0} eller en kompatibel version, hvis den er tilgængelig.'
       - lang: de
         text: 'Eine andere Mod scheint eine der essenziellen Dateien dieser Modifikation zu überschreiben. Bitte stellen Sie sicher, dass Sie die Version dieser Modifikation von {0} oder eine kompatible Version verwenden, falls verfügbar.'
+      - lang: es
+        text: 'Otro mod parece estar sobrescribiendo uno de los archivos esenciales de este mod. Por favor, asegúrate de que estás usando la versión {0} de este mod o una versión compatible si está disponible.'
       - lang: fi
         text: 'Toinen lisäosa on kirjoittanut yhden tämän lisäosan kriittisen tiedoston päälle. Varmistathan, että käytössä on tämän lisäosan {0} tai muutoin yhteensopiva versio.'
       - lang: fr
@@ -498,6 +510,8 @@ common:
         text: 'Тази приставка не е ESM файл, но съдържа навигационни обекти. Това може да причини проблеми с навигацията на компютърните герои. Препоръчва се да отбележите тази приставка като **ESM** файл, за да избегнете тези проблеми. Необходимо е всички препратки от скриптовете да се отбележат като **непроменливи**.'
       - lang: de
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
+      - lang: es
+        text: 'Este plugin no es un ESM, pero parece contener navmeshes. Esto puede provocar problemas con el pathfinding de los NPCs. Se recomienda marcar este plugin como **ESM** para evitar estos problemas. También puede ser necesario asegurarse de que todas las referencias invocadas por scripts en este plugin están marcadas como **persistentes**.'
       - lang: ru
         text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: tr_TR
@@ -1807,6 +1821,8 @@ common:
         text: 'Изтрийте {0} от {1}. Версията на {2} е с предимство.'
       - lang: de
         text: 'Löschen Sie {0} von {1}. Die Version von {2} muss Vorrang haben.'
+      - lang: es
+        text: 'Borra {0} de {1}. La versión de {2} debe tener prioridad.'
       - lang: fi
         text: 'Poista {0} kohteesta {1}. {2}:n versio on oltava etusijalla.'
       - lang: fr
@@ -2313,6 +2329,8 @@ common:
         text: 'Използвате **{0}**, но тя е заменена. Препоръчва се да използвате **{1}**.'
       - lang: de
         text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
+      - lang: es
+        text: 'Parece que estas utilizando **{0}**, pero ha sido sustituido. Se recomienda utilizar **{1}** en su lugar.'
       - lang: fi
         text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
       - lang: it
