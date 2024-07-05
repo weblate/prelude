@@ -46,6 +46,7 @@ jobs:
       - name: Commit and push changes
         run: |
           . git_vars.sh
+          rm git_vars.sh sync-translations.patch
 
           git add .
           git commit -m "$COMMIT_MESSAGE"
