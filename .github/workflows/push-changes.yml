@@ -1,0 +1,47 @@
+name: Push changes to pull request HEAD
+
+on:
+  workflow_run:
+    workflows: [Import translations from Weblate]
+    types: [completed]
+
+jobs:
+  import:
+    runs-on: ubuntu-20.04
+
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download the pull request run's artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sync-translations-data
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Checkout the pull request's HEAD
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          . git_vars.sh
+
+          git remote add other "$PR_HEAD_URL"
+          git fetch other
+          git checkout "$PR_HEAD_REF"
+          git status
+
+      - name: Apply the patch
+        run: git apply sync-translations.patch
+
+      - name: Commit and push changes
+        run: |
+          . git_vars.sh
+
+          git add .
+          git commit -m "$COMMIT_MESSAGE"
+          git push
