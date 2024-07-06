@@ -6,12 +6,42 @@ on:
     types: [completed]
 
 jobs:
-  import:
+  check-for-changes:
     runs-on: ubuntu-20.04
 
     if: >
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
+
+    outputs:
+      is-patch-empty: ${{ steps.check-patch.outputs.is-empty }}
+
+    steps:
+      - name: Download the pull request run's artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sync-translations-data
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Check if the patch contains any changes
+        id: check-patch
+        run: |
+          if [ -s sync-translations.patch ]
+          then
+            echo "Patch is not empty"
+            echo "is-empty=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "Patch is empty"
+            echo "is-empty=1" >> "$GITHUB_OUTPUT"
+          fi
+
+  apply-patch:
+    runs-on: ubuntu-20.04
+
+    needs: [check-for-changes]
+
+    if: needs.check-for-changes.outputs.is-patch-empty == 0
 
     permissions:
       contents: write
