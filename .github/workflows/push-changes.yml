@@ -2,7 +2,9 @@ name: Push changes to pull request HEAD
 
 on:
   workflow_run:
-    workflows: [Import translations from Weblate]
+    workflows:
+      - Import translations from Weblate
+      - Export translations from prelude
     types: [completed]
 
 jobs:
