@@ -57,3 +57,8 @@ versionUpToDateX: Seu {0} está atualizado.
 versionXIncY: A sua versão instalada de {0} não é compatível com a sua versão de {1}.
 versionXofYorGreaterRequired: Requer versão **{0}** ou mais recente que **{1}**.
 wildEdits: Este plugin contém [edições não-intencionais](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) e pode requerer limpeza manual adicional para que não interfira com outros mods. {0}
+changeUnsupported: Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).
+unsupportedChangeVerified: Esse plugin foi alterado de **{0}** para **{1}**.
+flagESM: Esse plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com a localização de NPCs. Recomenda-se marcar esse plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts nesse plugin sejam marcadas como **persistentes**.
+filenameExtension: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
+mismatchedFormIDs: Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.
