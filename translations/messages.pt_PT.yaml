@@ -48,3 +48,17 @@ versionUpToDateX: O seu {0} está atualizado.
 versionXIncY: A sua versão instalada de {0} não é compatível com a sua versão de {1}.
 versionXofYorGreaterRequired: Necessita a versão **{0}** ou maior de **{1}**.
 wildEdits: Este plugin contém [edições selvagens](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Pode requerer limpeza manual adicional de forma a não interferir com outros mods. {0}
+compatPatchForX: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
+changeUnsupported: Alterar o tipo de um plugin existente não é suportado. Detalhes adicionais são fornecidos [aqui]({0}).
+filenameExtension: '{0} não suporta o uso de plugins **{1}*** no jogo, mas a sua ordem de carga contém esses plugins. Para evitar danos irreversíveis ao seu jogo, recomenda-se não usar * plugins.'
+unsupportedChangeVerified: Este plugin foi alterado de **{0}** a **{1}**.
+disableAfterGeneratingXwithY: Este plugin pode ser desativado após gerar **{0}** com **{1}**.
+essentialFiles: Aparentemente outro mod está a sobrescrever um dos ficheiros essenciais deste mod. Por favor certifique-se que usa a versão do mod {0} ou uma versão compatível, se disponível.
+patchOutdated: Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.
+supersede: Parece que usa **{0}**, mas esse foi substituído. É recomendável que use **{1}** em ao invés.
+versionPrecedence: Apague {0} de {1}. A versão de {2} deve ter precedência.
+compatPatch: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
+deactivateAfterCharacterCreation: Desative e/ou desinstale este mod após a criação da personagem.
+deprecated: Este ficheiro é obsoleto e já não deve ser usado.
+flagESM: Este plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com o Pathfinding NPC. Recomenda-se a marcar este plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts neste plugin são sinalizadas como **persistent***.
+mismatchedFormIDs: Este plugin é um **{0}**, mas contém FormIDs que não correspondem a este tipo de Master. Usando este plugin teria consequências imprevisíveis para o seu jogo e, portanto, não é recomendado.
