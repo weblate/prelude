@@ -226,6 +226,8 @@ common:
         text: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: {0}'
       - lang: pt_BR
         text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
+      - lang: pt_PT
+        text: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
       - lang: ru
         text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для этого мода: {0}'
       - lang: tr_TR
@@ -254,6 +256,8 @@ common:
         text: '{0} の互換性パッチを確認することをお勧めします: {1}'
       - lang: pt_BR
         text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
+      - lang: pt_PT
+        text: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
       - lang: ru
         text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для {0}: {1}'
       - lang: tr_TR
@@ -322,6 +326,8 @@ common:
         text: 'キャラクター作成後、この Mod を非アクティブにするかアンインストールしてください。'
       - lang: pt_BR
         text: 'Desative e/ou desinstale este mod após a criação do personagem.'
+      - lang: pt_PT
+        text: 'Desative e/ou desinstale este mod após a criação da personagem.'
       - lang: ru
         text: 'Деактивируйте и/или удалите этот мод после создания персонажа.'
       - lang: tr_TR
@@ -433,6 +439,8 @@ common:
         text: 'Ten plik jest przestarzały i nie powinien być już używany.'
       - lang: pt_BR
         text: 'Este arquivo está obsoleto e não deve mais ser usado.'
+      - lang: pt_PT
+        text: 'Este ficheiro é obsoleto e já não deve ser usado.'
       - lang: ru
         text: 'Этот файл устарел и не должен использоваться.'
       - lang: tr_TR
@@ -460,6 +468,8 @@ common:
       - lang: ja
         text: 'このプラグインは **{1}** で **{0}** を生成すると無効化される場合があります。'
       - lang: pt_BR
+        text: 'Este plugin pode ser desativado após gerar **{0}** com **{1}**.'
+      - lang: pt_PT
         text: 'Este plugin pode ser desativado após gerar **{0}** com **{1}**.'
       - lang: ru
         text: 'Этот плагин может быть отключен после генерации **{0}** с помощью **{1}**.'
@@ -493,6 +503,8 @@ common:
         text: 'Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji {0} tego moda lub wersji kompatybilnej, jeśli jest dostępna.'
       - lang: pt_BR
         text: 'Aparentemente outro mod está sobrescrevendo um dos arquivos essenciais deste mod. Por favor certifique-se que você está usando a versão do mod {0} ou uma versão compatível, se disponível.'
+      - lang: pt_PT
+        text: 'Aparentemente outro mod está a sobrescrever um dos ficheiros essenciais deste mod. Por favor certifique-se que usa a versão do mod {0} ou uma versão compatível, se disponível.'
       - lang: ru
         text: 'Другой мод может переписать один из критических файлов. Пожалуйста, убедитесь, что вы используете версию {0} из этого мода, или совместимую при ее наличии.'
       - lang: tr_TR
@@ -512,6 +524,10 @@ common:
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
       - lang: es
         text: 'Este plugin no es un ESM, pero parece contener navmeshes. Esto puede provocar problemas con el pathfinding de los NPCs. Se recomienda marcar este plugin como **ESM** para evitar estos problemas. También puede ser necesario asegurarse de que todas las referencias invocadas por scripts en este plugin están marcadas como **persistentes**.'
+      - lang: pt_BR
+        text: 'Esse plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com a localização de NPCs. Recomenda-se marcar esse plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts nesse plugin sejam marcadas como **persistentes**.'
+      - lang: ru
+        text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: ru
         text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: tr_TR
@@ -682,6 +698,10 @@ common:
         text: 'Тази приставка е **{0}**, но съдържа „FormID“, който не съвпада с типа на основната. Използването на тази приставка може да причини непредвидими последици за Вашата игра и не се препоръчва.'
       - lang: de
         text: 'Dieses Plugin ist ein **{0}**, aber es enthält FormIDs, die nicht zu diesem Typ von Master passen. Die Verwendung dieses Plugins würde unvorhersehbare Folgen für Ihr Spiel haben und wird daher nicht empfohlen.'
+      - lang: pt_BR
+        text: 'Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.'
+      - lang: ru
+        text: 'Этот плагин является **{0}**, но он содержит FormID, которые не соответствуют этому типу Master. Использование этого плагина может иметь непредсказуемые последствия для вашей игры, поэтому не рекомендуется.'
       - lang: ru
         text: 'Этот плагин является **{0}**, но он содержит FormID, которые не соответствуют этому типу Master. Использование этого плагина может иметь непредсказуемые последствия для вашей игры, поэтому не рекомендуется.'
       - lang: uk_UA
@@ -896,7 +916,7 @@ common:
       - lang: en
         text: 'Can be used with a {0} but would require additional work. A Smashed Patch or Bash Patch should be used independently of one another.'
       - lang: bg
-        text: 'Може да се използва с {0}, но ще трябва да изберете кръпка на "Smash" или "Bash".'
+        text: 'Може да се използва с {0}, но ще трябва да изберете кръпка на „Smash“ или „Bash“.'
       - lang: da
         text: 'Kan bruges sammen med {0} men det vil kræve ekstra arbejde. Smashed Patch og Bash Patch bør bruges uafhængigt af hinanden.'
       - lang: de
@@ -1112,6 +1132,8 @@ common:
       - lang: pl
         text: 'Ten patch jest nieaktualny i może nie być kompatybilny z najnowszą wersją poprawionego moda.'
       - lang: pt_BR
+        text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
+      - lang: pt_PT
         text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
       - lang: ru
         text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
@@ -1487,7 +1509,7 @@ common:
       - lang: en
         text: 'If you add, remove, or update plugins that alter WRLD/CELL records, remember to update this module with **xLODGen**.'
       - lang: bg
-        text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **"xLODGen"**.'
+        text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **„xLODGen“**.'
       - lang: da
         text: 'Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**.'
       - lang: de
@@ -1529,6 +1551,10 @@ common:
         text: 'Тази приставка е променена от **{0}** на **{1}**.'
       - lang: de
         text: 'Dieses Plugin wurde von **{0}** zu **{1}** geändert.'
+      - lang: pt_BR
+        text: 'Esse plugin foi alterado de **{0}** para **{1}**.'
+      - lang: ru
+        text: 'Этот плагин был изменен с **{0}** на **{1}**.'
       - lang: ru
         text: 'Этот плагин был изменен с **{0}** на **{1}**.'
       - lang: uk_UA
@@ -1543,7 +1569,7 @@ common:
       - lang: en
         text: 'A Bashed Patch tweak can be used instead of this plugin. {0}'
       - lang: bg
-        text: 'Може да използвате кръпка на "Bash" вместо тази приставка. {0}'
+        text: 'Може да използвате кръпка на „Bash“ вместо тази приставка. {0}'
       - lang: da
         text: 'Du kan bruge en Bashed Patch tweak i stedet for dette plugin. {0}'
       - lang: de
@@ -1841,6 +1867,8 @@ common:
         text: '{1} から {0} を削除してください。{2} のものを優先させる必要があります。'
       - lang: pt_BR
         text: 'Delete {0} de {1}. A versão de {2} deve ter precedência.'
+      - lang: pt_PT
+        text: 'Apague {0} de {1}. A versão de {2} deve ter precedência.'
       - lang: ru
         text: 'Удалите {0} из {1}. Версия {2} должна иметь приоритет.'
       - lang: tr_TR
@@ -2014,7 +2042,7 @@ common:
       - lang: en
         text: 'A guide to cleaning plugins using xEdit can be found [here](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: bg
-        text: 'Информация за почистване на приставките в "xEdit" може да намерите [тук](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+        text: 'Информация за почистване на приставките в „xEdit“ може да намерите [тук](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: da
         text: 'En vejledning i rensning af plugins med xEdit kan findes [her](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: de
@@ -2098,6 +2126,10 @@ common:
         text: 'Промяната на типа на съществуваща приставка не се поддържа. Повече информация може да намерите [тук]({0}).'
       - lang: de
         text: 'Das Ändern des Typs eines bestehenden Plugins wird nicht unterstützt. Weitere Einzelheiten sind [hier]({0}) zu finden.'
+      - lang: pt_BR
+        text: 'Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).'
+      - lang: ru
+        text: 'Изменение типа существующего плагина не поддерживается. Дополнительная информация представлена [here]({0}).'
       - lang: ru
         text: 'Изменение типа существующего плагина не поддерживается. Дополнительная информация представлена [here]({0}).'
       - lang: uk_UA
@@ -2113,6 +2145,10 @@ common:
         text: '{0} не поддържа използването на **{1}** приставки, но Вашият ред за зареждане съдържа такива приставки. Препоръчва се да не използвате **{1}** приставки, за да избегнете непоправими щети на Вашата игра.'
       - lang: de
         text: '{0} unterstützt nicht die Verwendung von **{1}** Plugins im Spiel, aber Ihre Ladereihenfolge enthält solche Plugins. Um irreversible Schäden an Ihrem Spiel zu vermeiden, wird empfohlen, keine **{1}** Plugins zu verwenden.'
+      - lang: pt_BR
+        text: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
+      - lang: ru
+        text: '{0} не поддерживает использование плагинов **{1}** в игре, но ваш порядок загрузки содержит такие плагины. Во избежание необратимого повреждения вашей игры рекомендуется не использовать плагины **{1}**.'
       - lang: ru
         text: '{0} не поддерживает использование плагинов **{1}** в игре, но ваш порядок загрузки содержит такие плагины. Во избежание необратимого повреждения вашей игры рекомендуется не использовать плагины **{1}**.'
       - lang: uk_UA
@@ -2172,7 +2208,7 @@ common:
       - lang: en
         text: '[Latest LOOT thread]({0}).'
       - lang: bg
-        text: '[Форумът на "LOOT"]({0}).'
+        text: '[Форумът на LOOT]({0}).'
       - lang: da
         text: '[Seneste LOOT-tråd]({0}).'
       - lang: de
@@ -2213,7 +2249,7 @@ common:
       - lang: en
         text: 'NVAC is installed under **NVSE/Plugins** but needs to be moved to **{0}/Plugins** for {0} to pick it up for {1}.'
       - lang: bg
-        text: 'Приставката NVAC е инсталирана в **NVSE/Plugins**, но трябва да бъде преместена в **{0}/Plugins** за да може {0} да използва нейните функции в {1}.'
+        text: 'NVAC е инсталирана в **NVSE/Plugins**, но трябва да бъде преместена в **{0}/Plugins** за да може {0} да използва нейните функции в {1}.'
       - lang: da
         text: 'NVAC er installeret under **NVSE/Plugins**, men skal flyttes til **{0}/Plugins** for at {0} kan hente det til {1}.'
       - lang: de
@@ -2366,6 +2402,8 @@ common:
         text: 'Sembra che tu stia utilizzando **{0}**, ma è stato sostitutito. Si raccomanda di usare **{1}** in sostituzione.'
       - lang: pt_BR
         text: 'Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.'
+      - lang: pt_PT
+        text: 'Parece que usa **{0}**, mas esse foi substituído. É recomendável que use **{1}** em ao invés.'
       - lang: ru
         text: 'Похоже, вы используете **{0}**, но его было заменено. Вместо него рекомендуется использовать **{1}**.'
       - lang: tr_TR
