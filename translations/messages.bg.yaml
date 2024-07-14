@@ -62,3 +62,4 @@ versionUpToDateX: '{0} е актуална.'
 versionXIncY: Инсталираната версия на {0} не е съвместима с версията на {1}.
 versionXofYorGreaterRequired: Изисква версия **{0}** или всяка следваща на **{1}**.
 wildEdits: Тази приставка съдържа [диви редакции](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) и може да изисква допълнително ръчно почистване. {0}
+pluginEnabler: Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.
