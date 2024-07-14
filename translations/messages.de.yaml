@@ -37,6 +37,7 @@ patchProvided: Sie scheinen **{0}** zu nutzen, aber Sie haben keinen Kompatibili
 patchUnavailable: Ein Patch ist nötig um diese Mod vollständig kompatibel mit {0} zu machen. Keiner ist derzeit zum Download verfügbar.
 patchUpdateAvailable: 'Update Patch verfügbar: {0}'
 patcherScriptAvailable: '{0} Patch-Skript hier verfügbar: {1}'
+pluginEnabler: Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.
 quickClean: Eine Anleitung zum Säubern von Plugins mit xEdit finden Sie [hier](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Benennen Sie diese Datei in {0} um.
 renameXtoY: Sie müssen {0} zu {1} umbenennen, ansonsten funktioniert diese Mod nicht.
