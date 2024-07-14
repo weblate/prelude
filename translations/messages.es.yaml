@@ -30,7 +30,7 @@ optional: Este plugin es opcional.
 patch3rdParty: 'Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de un tercero se encuentra disponible aquí: {1}'
 patchIncluded: Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está incluido en el instalador de este plugin.
 patchOutdated: Este parche no ha sido actualizado y podría no ser compatible con la última versión del mod original.
-patchProvided: Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está  disponible en la página del mod.
+patchProvided: Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está disponible en la página del mod.
 patchUnavailable: Se requiere un parche para hacer este mod completamente compatible con {0}. No existe por el momento ninguno disponible para ser descargado.
 patchUpdateAvailable: Parche actualizado disponible aquí {0}.
 patcherScriptAvailable: '{0} un script parcheador se encuentra disponible aquí: {1}'
