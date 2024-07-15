@@ -1154,7 +1154,7 @@ common:
       - lang: de
         text: 'Sie scheinen **{0}** zu nutzen, aber Sie haben keinen Kompatibilitätspatch für diese Mod aktiviert. Ein Kompatibilitätspatch wird auf dieser Plugins Mod-Seite zur Verfügung gestellt.'
       - lang: es
-        text: 'Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está  disponible en la página del mod.'
+        text: 'Parece que está usando **{0}**, pero no ha habilitado un parche de compatibilidad para este mod. Un parche de compatibilidad está disponible en la página del mod.'
       - lang: fi
         text: 'Käytät lisäosaa **{0}**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Korjaus on saatavilla tämän lisäosan lataussivulta.'
       - lang: fr
@@ -2290,6 +2290,8 @@ common:
     content:
       - lang: en
         text: 'You have installed {0}, but since {1} version {2} this is no longer needed.'
+      - lang: bg
+        text: 'Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.'
       - lang: de
         text: 'Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.'
     subs:
