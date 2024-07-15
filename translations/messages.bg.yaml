@@ -37,6 +37,7 @@ patchProvided: Използвате **{0}**, но се изисква кръпк
 patchUnavailable: Тази модификация изисква кръпка за съвместимост с приставката {0}. Няма налична кръпка за съвместимост.
 patchUpdateAvailable: 'Налична е обновена кръпка: {0}'
 patcherScriptAvailable: 'Скриптът за кръпки {0} е наличен от: {1}'
+pluginEnabler: Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.
 quickClean: Информация за почистване на приставките в „xEdit“ може да намерите [тук](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Преименувайте този файл на {0}.
 renameXtoY: Трябва да преименувате {0} на {1}, в противен случай модификацията няма да работи.
@@ -62,4 +63,3 @@ versionUpToDateX: '{0} е актуална.'
 versionXIncY: Инсталираната версия на {0} не е съвместима с версията на {1}.
 versionXofYorGreaterRequired: Изисква версия **{0}** или всяка следваща на **{1}**.
 wildEdits: Тази приставка съдържа [диви редакции](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) и може да изисква допълнително ръчно почистване. {0}
-pluginEnabler: Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.
