@@ -53,12 +53,11 @@ with open('prelude.yaml', encoding='utf8') as input:
             if expected_langs:
                 # Expected more languages than were found in the last anchor,
                 # need to go back and append the remaining expected languages.
-                print('Expected more languages', anchor, expected_langs)
+                print(f'Expected more languages for anchor {anchor}: {expected_langs}')
                 exit(1)
 
             anchor = match.group(1)
             expected_langs = get_expected_languages(messages[anchor])
-            print(f'Expecting the following languages for anchor {anchor}: {expected_langs}')
             lang = None
 
             index += 1
@@ -70,8 +69,9 @@ with open('prelude.yaml', encoding='utf8') as input:
             expected_lang = expected_langs[0]
             if lang == expected_lang:
                 expected_langs.pop(0)
+                index += 1
             else:
-                print(f'Expected an entry for language {expected_lang}, found entry for language {lang}, inserting the expected language before it')
+                print(f'Expected an entry for language {expected_lang} in anchor {anchor}, found entry for language {lang}, inserting the expected language before it')
                 match = re.search(r'(\s+)- lang:', lines[index])
                 whitespace = match.group(1)
 
@@ -84,11 +84,9 @@ with open('prelude.yaml', encoding='utf8') as input:
                 lines.insert(index, new_lang_line)
 
                 expected_langs.pop(0)
-                expected_langs.pop(0)
 
                 index += 2
 
-            index += 1
             continue
 
         match = re.search(r' text: \'(.+)\'', lines[index])
