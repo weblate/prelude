@@ -1,7 +1,6 @@
 alreadyInOrFixedByX: Apague. Já incluído ou consertado em {0}.
 alreadyInX: Apague. Já incluído em {0}
 alsoUseX: É altamente recomendado que você também use {0}.
-changeUnsupported: Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).
 compatIssuesWithX: Este plugin tem problemas de compatibilidade com {0}. Para mais informações, leia as notas de compatibilidade deste mod.
 compatNotes: É recomendada a leitura das [Notas de Compatibilidade]({0}) deste mod.
 compatPatch: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
@@ -13,15 +12,12 @@ deletePlugin: Quando se usa **{0}**, é recomendado que você desative ou apague
 deprecated: Este arquivo está obsoleto e não deve mais ser usado.
 disableAfterGeneratingXwithY: Este plugin pode ser desativado após gerar **{0}** com **{1}**.
 essentialFiles: Aparentemente outro mod está sobrescrevendo um dos arquivos essenciais deste mod. Por favor certifique-se que você está usando a versão do mod {0} ou uma versão compatível, se disponível.
-filenameExtension: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
-flagESM: Esse plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com a localização de NPCs. Recomenda-se marcar esse plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts nesse plugin sejam marcadas como **persistentes**.
 includesX: '{0} está incluído neste mod.'
 incompatible: '{0} é incompatível com {1}, mas ambos estão presentes.'
 languageX: 'Língua: {0}'
 latestLOOTThread: '[Thread mais recento do LOOT]({0}).'
 mainQuestCompleted: Só use este plugin após finalizar a história principal do jogo.
 masterReassign: O mestre **{0}** deve ser realocado para **{1}**.
-mismatchedFormIDs: Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.
 missingRequirementXforPlugin: Alguns dos requerimentos deste plugin estão faltando. Por favor tenha certeza de que você instalou **{0}** corretamente.
 missingRequirementXforY: Aparentemente você tem instalado **{1}**, mas alguns de seus requerimentos estão faltando. Por favor tenha certeza de que você instalou **{0}** corretamente.
 moddingPlugin: Este plugin é um recurso para a criação de mods e não deve ser usado no jogo.
@@ -49,7 +45,6 @@ runxLODGen: Se você adicionar, remover, ou atualizar plugins que alteram regist
 scriptExtenderMissing: 'Você tem um plugin do {0} instalado mas o {0} não foi encontrado! Veja a página de download do {0}: {1}.'
 scriptExtenderRequiredScripts: Você aparenta ter instalado o **{0}**, mas os scripts necessários aparentam estar faltando. Por favor, tenha certeza de que você instalou o scripts que vem com o arquivo de instalação do **{1}**.
 supersede: Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.
-unsupportedChangeVerified: Esse plugin foi alterado de **{0}** para **{1}**.
 useBashTweakInstead: Uma tweak do Bashed Patch pode ser utilizada no lugar deste plugin. {0}
 useINITweakInstead: Uma INI Tweak pode ser usada ao invés deste plugin. {0}
 useInstead: Use {0} ao invés disso.
@@ -62,3 +57,8 @@ versionUpToDateX: Seu {0} está atualizado.
 versionXIncY: A sua versão instalada de {0} não é compatível com a sua versão de {1}.
 versionXofYorGreaterRequired: Requer versão **{0}** ou mais recente que **{1}**.
 wildEdits: Este plugin contém [edições não-intencionais](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) e pode requerer limpeza manual adicional para que não interfira com outros mods. {0}
+changeUnsupported: Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).
+unsupportedChangeVerified: Esse plugin foi alterado de **{0}** para **{1}**.
+flagESM: Esse plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com a localização de NPCs. Recomenda-se marcar esse plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts nesse plugin sejam marcadas como **persistentes**.
+filenameExtension: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
+mismatchedFormIDs: Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.
