@@ -2294,6 +2294,8 @@ common:
         text: 'Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.'
       - lang: de
         text: 'Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.'
+      - lang: pt_BR
+        text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
     subs:
       - 'Plugin Enabler'
       - 'Game'
