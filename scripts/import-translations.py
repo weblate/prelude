@@ -24,6 +24,22 @@ def get_expected_languages(messages_for_anchor):
 def get_yaml_string(raw_message_text):
     return yaml.dump(raw_message_text, width=math.inf, allow_unicode=True, default_style="'").strip()
 
+def get_whitespace(lang_line):
+    match = re.search(r'(\s+)- lang:', lang_line)
+    return match.group(1)
+
+def insert_lang(lines, index, lang, raw_text, whitespace):
+    if whitespace == None:
+        whitespace = get_whitespace(lines[index])
+
+    text = get_yaml_string(raw_text)
+
+    new_lang_line = f'{whitespace}- lang: {lang}\n'
+    new_text_line = f'{whitespace}  text: {text}\n'
+
+    lines.insert(index, new_text_line)
+    lines.insert(index, new_lang_line)
+
 messages_by_lang = {}
 for f in os.scandir('translations'):
     match = re.match(r'messages\.([^\.]+)\.yaml', f.name)
@@ -47,6 +63,7 @@ with open('prelude.yaml', encoding='utf8') as input:
     lang = None
     expected_langs = []
     index = 0
+    last_lang_index = None
     while index < len(lines):
         match = re.search(r' &([^\s]+)$', lines[index])
         if match != None:
@@ -54,7 +71,17 @@ with open('prelude.yaml', encoding='utf8') as input:
                 # Expected more languages than were found in the last anchor,
                 # need to go back and append the remaining expected languages.
                 print(f'Expected more languages for anchor {anchor}: {expected_langs}')
-                exit(1)
+
+                whitespace = get_whitespace(lines[last_lang_index])
+
+                for expected_lang in expected_langs:
+                    print(f'Appending language {expected_lang} to anchor {anchor}')
+
+                    insert_lang(lines, last_lang_index + 2, expected_lang, messages[anchor][expected_lang], whitespace)
+
+                    last_lang_index += 2
+
+                index += 2 * len(expected_langs)
 
             anchor = match.group(1)
             expected_langs = get_expected_languages(messages[anchor])
@@ -69,19 +96,11 @@ with open('prelude.yaml', encoding='utf8') as input:
             expected_lang = expected_langs[0]
             if lang == expected_lang:
                 expected_langs.pop(0)
+                last_lang_index = index
                 index += 1
             else:
                 print(f'Expected an entry for language {expected_lang} in anchor {anchor}, found entry for language {lang}, inserting the expected language before it')
-                match = re.search(r'(\s+)- lang:', lines[index])
-                whitespace = match.group(1)
-
-                text = get_yaml_string(messages[anchor][expected_lang])
-
-                new_lang_line = f'{whitespace}- lang: {expected_lang}\n'
-                new_text_line = f'{whitespace}  text: {text}\n'
-
-                lines.insert(index, new_text_line)
-                lines.insert(index, new_lang_line)
+                insert_lang(lines, index, expected_lang, messages[anchor][expected_lang])
 
                 expected_langs.pop(0)
 
