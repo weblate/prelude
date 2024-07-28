@@ -28,7 +28,7 @@ def get_whitespace(lang_line):
     match = re.search(r'(\s+)- lang:', lang_line)
     return match.group(1)
 
-def insert_lang(lines, index, lang, raw_text, whitespace):
+def insert_lang(lines, index, lang, raw_text, whitespace = None):
     if whitespace == None:
         whitespace = get_whitespace(lines[index])
 
