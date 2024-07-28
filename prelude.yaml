@@ -698,6 +698,8 @@ common:
         text: 'Тази приставка е **{0}**, но съдържа „FormID“, който не съвпада с типа на основната. Използването на тази приставка може да причини непредвидими последици за Вашата игра и не се препоръчва.'
       - lang: de
         text: 'Dieses Plugin ist ein **{0}**, aber es enthält FormIDs, die nicht zu diesem Typ von Master passen. Die Verwendung dieses Plugins würde unvorhersehbare Folgen für Ihr Spiel haben und wird daher nicht empfohlen.'
+      - lang: es
+        text: 'Este plugin es un **{0}**, pero contiene FormIDs que no coinciden con este tipo de Master. El uso de este plugin tendría consecuencias impredecibles para su juego y por lo tanto no se recomienda.'
       - lang: pt_BR
         text: 'Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.'
       - lang: pt_PT
@@ -1551,6 +1553,8 @@ common:
         text: 'Тази приставка е променена от **{0}** на **{1}**.'
       - lang: de
         text: 'Dieses Plugin wurde von **{0}** zu **{1}** geändert.'
+      - lang: es
+        text: 'Este plugin ha cambiado de **{0}** a **{1}**.'
       - lang: pt_BR
         text: 'Esse plugin foi alterado de **{0}** para **{1}**.'
       - lang: pt_PT
@@ -2126,6 +2130,8 @@ common:
         text: 'Промяната на типа на съществуваща приставка не се поддържа. Повече информация може да намерите [тук]({0}).'
       - lang: de
         text: 'Das Ändern des Typs eines bestehenden Plugins wird nicht unterstützt. Weitere Einzelheiten sind [hier]({0}) zu finden.'
+      - lang: es
+        text: 'No es posible cambiar el tipo de un plugin existente. Se proporcionan detalles adicionales [aquí]({0}).'
       - lang: pt_BR
         text: 'Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).'
       - lang: pt_PT
@@ -2145,6 +2151,8 @@ common:
         text: '{0} не поддържа използването на **{1}** приставки, но Вашият ред за зареждане съдържа такива приставки. Препоръчва се да не използвате **{1}** приставки, за да избегнете непоправими щети на Вашата игра.'
       - lang: de
         text: '{0} unterstützt nicht die Verwendung von **{1}** Plugins im Spiel, aber Ihre Ladereihenfolge enthält solche Plugins. Um irreversible Schäden an Ihrem Spiel zu vermeiden, wird empfohlen, keine **{1}** Plugins zu verwenden.'
+      - lang: es
+        text: '{0} no soporta el uso de **{1}** plugins en el juego, pero su orden de carga contiene dichos plugins. Para evitar daños irreversibles en el juego, se recomienda no utilizar plugins **{1}**.'
       - lang: pt_BR
         text: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
       - lang: pt_PT
@@ -2294,6 +2302,8 @@ common:
         text: 'Инсталирали сте {0}, но от {1} версия {2} това вече не е необходимо.'
       - lang: de
         text: 'Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.'
+      - lang: es
+        text: 'Has instalado {0}, pero desde {1} la versión {2} ya no es necesaria.'
       - lang: pt_BR
         text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
     subs:
