@@ -1,6 +1,7 @@
 alreadyInOrFixedByX: Eliminar. Está incluido o arreglado en {0}.
 alreadyInX: Eliminar. Está incluido en {0}.
 alsoUseX: Se recomienda que también use {0}.
+changeUnsupported: No es posible cambiar el tipo de un plugin existente. Se proporcionan detalles adicionales [aquí]({0}).
 compatIssuesWithX: Este plugin tiene problemas de compatibilidad con {0}. Para más información, lea las notas de compatibilidad de este mod.
 compatNotes: Se recomienda que lea las [Notas de compatibilidad]({0}) de este mod.
 compatPatch: 'Se recomienda comprobar la siguiente compilación de parches de compatibilidad para este mod: {0}'
@@ -12,6 +13,7 @@ deletePlugin: Si usa **{0}**, se recomienda que desactive o elimine este archivo
 deprecated: Este archivo está obsoleto y ya no debe utilizarse.
 disableAfterGeneratingXwithY: Este plugin puede desactivarse después de generar **{0}** con **{1}**.
 essentialFiles: Otro mod parece estar sobrescribiendo uno de los archivos esenciales de este mod. Por favor, asegúrate de que estás usando la versión {0} de este mod o una versión compatible si está disponible.
+filenameExtension: '{0} no soporta el uso de **{1}** plugins en el juego, pero su orden de carga contiene dichos plugins. Para evitar daños irreversibles en el juego, se recomienda no utilizar plugins **{1}**.'
 flagESM: Este plugin no es un ESM, pero parece contener navmeshes. Esto puede provocar problemas con el pathfinding de los NPCs. Se recomienda marcar este plugin como **ESM** para evitar estos problemas. También puede ser necesario asegurarse de que todas las referencias invocadas por scripts en este plugin están marcadas como **persistentes**.
 includesX: '{0} viene incluido ya con este mod.'
 incompatible: '{0} es incompatible con {1}, pero ambos se encuentran presentes.'
@@ -19,6 +21,7 @@ languageX: 'Lenguaje: {0}'
 latestLOOTThread: '[Forum de LOOT]({0}).'
 mainQuestCompleted: Use este plugin solo cuando la misión principal del juego haya sido completada.
 masterReassign: El master **{0}** debe ser cambiado por **{1}**.
+mismatchedFormIDs: Este plugin es un **{0}**, pero contiene FormIDs que no coinciden con este tipo de Master. El uso de este plugin tendría consecuencias impredecibles para su juego y por lo tanto no se recomienda.
 missingRequirementXforPlugin: Algunos de los requerimientos de este plugin parecen faltar. Por favor, asegúrese de que haya instalado correctamente **{0}**.
 missingRequirementXforY: Parece que tiene instalado **{1}**, pero algunos de sus requerimientos no están presentes. Por favor, asegúrese de que haya instalado **{0}** correctamente.
 moddingPlugin: Este plugin es un recurso para la creación de mods y no debería ser usado en el juego.
@@ -34,6 +37,7 @@ patchProvided: Parece que está usando **{0}**, pero no ha habilitado un parche 
 patchUnavailable: Se requiere un parche para hacer este mod completamente compatible con {0}. No existe por el momento ninguno disponible para ser descargado.
 patchUpdateAvailable: Parche actualizado disponible aquí {0}.
 patcherScriptAvailable: '{0} un script parcheador se encuentra disponible aquí: {1}'
+pluginEnabler: Has instalado {0}, pero desde {1} la versión {2} ya no es necesaria.
 quickClean: Una guía para limpiar plugins usando xEdit se encuentra disponible [aquí](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Renombre este archivo a {0}.
 renameXtoY: Necesita renombrar {0} como {1} o de lo contrario este mod no funcionará.
@@ -46,6 +50,7 @@ runxLODGen: Si se agrega, elimina, o se actualizan plugins que modifican registr
 scriptExtenderMissing: '!Tiene un {0} plugin instalado pero {0} no se pudo encontrar! Véase {0} la página de descarga: {1}.'
 scriptExtenderRequiredScripts: Parece que tiene instalado **{0}** pero los scripts necesarios parece que no se encuentran presentes. Por favor, asegúrese de que haya instalado correctamente los scripts que vienen con el archivo de instalación de **{1}**.
 supersede: Parece que estas utilizando **{0}**, pero ha sido sustituido. Se recomienda utilizar **{1}** en su lugar.
+unsupportedChangeVerified: Este plugin ha cambiado de **{0}** a **{1}**.
 useBashTweakInstead: Un Bashed patch puede ser empleado en vez de este plugin. {0}
 useINITweakInstead: Se puede modificar un archivo INI en vez de emplear este plugin. {0}
 useInstead: Use {0} en su lugar.
