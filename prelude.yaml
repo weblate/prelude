@@ -153,7 +153,7 @@ common:
       - lang: ru
         text: 'У этого плагина есть проблемы совместимости с {0}. Для получения дополнительной информации прочтите заметки о совместимости этого мода.'
       - lang: sv
-        text: 'Det här pluginet är inte helt kompatibelt med {0}. För mer information, läs det här moddets kompabilitetsanteckningar.'
+        text: 'Det här pluginet är inte helt kompatibelt med {0}. För mer information, läs det här moddets kompatibilitetsanteckningar.'
       - lang: tr_TR
         text: 'Bu eklenti {0} ile uyumluluk sorunları yaşıyor. Daha fazla bilgi için bu modun uyumluluk notlarını okuyun.'
       - lang: uk_UA
@@ -193,7 +193,7 @@ common:
       - lang: ru
         text: 'Рекомендуется прочесть [заметки о совместимости]({0}) мода.'
       - lang: sv
-        text: 'Det är rekommenderat att du läser det här moddets [kompabilitetsanteckningar]({0}).'
+        text: 'Det är rekommenderat att du läser det här moddets [kompatibilitetsanteckningar]({0}).'
       - lang: tr_TR
         text: 'Bu mod için [Uyumluluk Notları]({0}) okumanız tavsiye edilir.'
       - lang: uk_UA
@@ -1024,7 +1024,7 @@ common:
       - lang: ru
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Сторонний патч можно найти здесь: {1}'
       - lang: sv
-        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompabilitetspatch för denna mod. En patch från en tredje part finns här: {1}.'
+        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}.'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Üçüncü taraf bir yama burada mevcut: {1}'
       - lang: uk_UA
@@ -1102,7 +1102,7 @@ common:
       - lang: ru
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти в установщике плагина.'
       - lang: sv
-        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompabilitetspatch för denna mod. En kompabilitetspatch är inkluderad i denna plugins installationsprogram.'
+        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin yükleyicisi ile birlikte sunulmuştur.'
       - lang: uk_UA
@@ -1176,7 +1176,7 @@ common:
       - lang: ru
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти на странице плагина.'
       - lang: sv
-        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompabilitetspatch för denna mod. En kompabilitetspatch finns på denna plugins modsida.'
+        text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna plugins modsida.'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin mod sayfasında sağlanmıştır.'
       - lang: uk_UA
@@ -1216,7 +1216,7 @@ common:
       - lang: ru
         text: 'Требуется патч для полной совместимости с {0}. В настоящее время ничего не доступно для загрузки.'
       - lang: sv
-        text: 'En kompabilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompabilitetspatch finns tillgänglig för nedladdning.'
+        text: 'En kompatibilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompatibilitetspatch finns tillgänglig för nedladdning.'
       - lang: tr_TR
         text: 'Bu modun {0} ile tam uyumlu olması için bir yama gereklidir. Şu anda indirilebilecek bir yama yok.'
       - lang: uk_UA
