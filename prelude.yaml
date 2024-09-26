@@ -2308,6 +2308,8 @@ common:
         text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
       - lang: ru
         text: 'Вы установили {0}, но, с тех пор как {1} имеет версию {2}, он больше не нужен.'
+      - lang: uk_UA
+        text: 'Ви встановили {0}, але з версії {2} {1} це вже непотрібно.'
     subs:
       - 'Plugin Enabler'
       - 'Game'
