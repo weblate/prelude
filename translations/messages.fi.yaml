@@ -55,5 +55,5 @@ versionOldX: '{0}: käytössä on vanhempi versio. Jotkin lisäosat saattavat va
 versionPrecedence: Poista {0} kohteesta {1}. {2}:n versio on oltava etusijalla.
 versionUpToDateX: '{0} on ajan tasalla.'
 versionXIncY: Lisäosien {0} ja {1} asennetut versiot eivät ole yhteensopivat toistensa kanssa.
-versionXofYorGreaterRequired: Vaatii version **{0}** tai uudemman lisäosasta **{1}**
+versionXofYorGreaterRequired: Vaati **{1}**:n version **{0}** tai uudemman.
 wildEdits: Tämä lisäosa sisältää [tarkoituksettomia muutoksia](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Manuaalinen puhdistaminen voi olla tarpeen yhteensopivuuden takaamiseksi. {0}
