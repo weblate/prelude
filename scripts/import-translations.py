@@ -40,6 +40,22 @@ def insert_lang(lines, index, lang, raw_text, whitespace = None):
     lines.insert(index, new_text_line)
     lines.insert(index, new_lang_line)
 
+def append_missing_languages(messages, lines, anchor, last_lang_index, expected_langs):
+    # Expected more languages than were found in the last anchor,
+    # need to go back and append the remaining expected languages.
+    print(f'Expected more languages for anchor {anchor}: {expected_langs}')
+
+    whitespace = get_whitespace(lines[last_lang_index])
+
+    for expected_lang in expected_langs:
+        print(f'Appending language {expected_lang} to anchor {anchor}')
+
+        insert_lang(lines, last_lang_index + 2, expected_lang, messages[anchor][expected_lang], whitespace)
+
+        last_lang_index += 2
+
+    return last_lang_index
+
 messages_by_lang = {}
 for f in os.scandir('translations'):
     match = re.match(r'messages\.([^\.]+)\.yaml', f.name)
@@ -68,18 +84,7 @@ with open('prelude.yaml', encoding='utf8') as input:
         match = re.search(r' &([^\s]+)$', lines[index])
         if match != None:
             if expected_langs:
-                # Expected more languages than were found in the last anchor,
-                # need to go back and append the remaining expected languages.
-                print(f'Expected more languages for anchor {anchor}: {expected_langs}')
-
-                whitespace = get_whitespace(lines[last_lang_index])
-
-                for expected_lang in expected_langs:
-                    print(f'Appending language {expected_lang} to anchor {anchor}')
-
-                    insert_lang(lines, last_lang_index + 2, expected_lang, messages[anchor][expected_lang], whitespace)
-
-                    last_lang_index += 2
+                last_lang_index = append_missing_languages(messages, lines, anchor, last_lang_index, expected_langs)
 
                 index += 2 * len(expected_langs)
 
@@ -116,6 +121,10 @@ with open('prelude.yaml', encoding='utf8') as input:
             lines[index] = re.sub(r' text: \'.+\'', f' text: {text}', lines[index])
 
         index += 1
+
+    if expected_langs:
+        # The last anchor has missing languages, go back and add them.
+        append_missing_languages(messages, lines, anchor, last_lang_index, expected_langs)
 
 with open('prelude.yaml', mode='w', encoding='utf8') as output:
     output.writelines(lines)

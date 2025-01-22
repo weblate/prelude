@@ -2580,6 +2580,8 @@ common:
         text: '**{0}** kullanıyor gibi görünüyorsunuz, ancak bu artık geçersiz. Bunun yerine **{1}** kullanmanız tavsiye edilir.'
       - lang: uk_UA
         text: 'Здається, ви використовуєте **{0}**, але його було замінено. Радимо використовувати **{1}** замість нього.'
+      - lang: zh_CN
+        text: '您似乎正在使用 **{0}**，但它已受到取代。推荐您使用 **{1}**。'
     subs:
       - 'xSE Plugin 0'
       - 'xSE Plugin 1'
