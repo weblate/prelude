@@ -2094,7 +2094,7 @@ common:
       - lang: es
         text: 'Requiere como mínimo la versión **{0}** de **{1}**.'
       - lang: fi
-        text: 'Vaatii version **{0}** tai uudemman lisäosasta **{1}**'
+        text: 'Vaati **{1}**:n version **{0}** tai uudemman.'
       - lang: fr
         text: 'Requiert la version **{0}** ou supérieure de **{1}**.'
       - lang: it
