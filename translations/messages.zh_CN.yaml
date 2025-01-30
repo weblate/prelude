@@ -60,3 +60,5 @@ versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
 wildEdits: 这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}
+mismatchedFormIDs: 此插件为 **{0}**，但其包含的 FormID 不匹配此类型的 Master。使用此插件会对您的游戏产生不可预知的后果，因此不推荐您使用它。
+compatPatchForX: 推荐您检查以下用于 {0} 的兼容补丁合辑： {1}
