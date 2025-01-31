@@ -5,6 +5,7 @@ changeUnsupported: 不支持更改现有插件类型。附加信息请参阅[此
 compatIssuesWithX: 这个插件与{0}有兼容性问题。欲了解更多信息，请阅读这个mod的兼容性说明。
 compatNotes: 建议您阅读这个mod的[兼容性说明]({0})。
 compatPatch: 推荐您检查以下适用于此模组的兼容补丁： {0}
+compatPatchForX: 推荐您检查以下用于 {0} 的兼容补丁合辑： {1}
 corrupt: 该文件已损坏，不应使用。
 deactivateAfterCharacterCreation: 在角色创建完成后取消激活并（或）卸载此模组。
 deleteOrDeactivateX: 删除或禁用。{0}
@@ -19,6 +20,7 @@ languageX: '语言: {0}'
 latestLOOTThread: '[最新的LOOT版本]({0})。'
 mainQuestCompleted: 只有在游戏的主要任务完成后才可以使用这个插件。
 masterReassign: '**{0}**必须重新分配给**{1}**。'
+mismatchedFormIDs: 此插件为 **{0}**，但其包含的 FormID 不匹配此类型的 Master。使用此插件会对您的游戏产生不可预知的后果，因此不推荐您使用它。
 missingRequirementXforPlugin: 这些插件的一些需求似乎缺失了。请确保您已正确安装**{0}**。
 missingRequirementXforY: 看起来您安装了**{1}**，但它的一些需求似乎缺失了。请确保您已正确安装**{0}**。
 moddingPlugin: 这个插件是一个mod开发资源，不应该在游戏中使用。
@@ -60,5 +62,3 @@ versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
 wildEdits: 这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}
-mismatchedFormIDs: 此插件为 **{0}**，但其包含的 FormID 不匹配此类型的 Master。使用此插件会对您的游戏产生不可预知的后果，因此不推荐您使用它。
-compatPatchForX: 推荐您检查以下用于 {0} 的兼容补丁合辑： {1}
